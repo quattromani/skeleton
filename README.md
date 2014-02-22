@@ -6,6 +6,8 @@ Rapid Prototyping Framework with all the styleguide goodies built in, enabling f
 
 Projects require initial setup of scss/_vars.scss and includes/variables/page_variables.php
 
+All sections in the styleguide are included by default, they can be turned off at styleguide/variables/page_variables.php
+
 ## TODO's
 
 * Build Process efficiencies
