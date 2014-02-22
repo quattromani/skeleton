@@ -4,7 +4,7 @@
 
 	// header.php variables
 		// Page Title
-		$title = 'Style Guide + Pattern Lab';
+		$page_title = 'Style Guide + Pattern Lab';
 
 		// Page Description
 		$description = '';
@@ -12,8 +12,8 @@
 		// Page Specific Keywords
 		$keywords = 'style guide, css, typography';
 
-		// Body ID tag
-		$body_ID = 'styleguide';
+		// page class tag
+		$page_class = 'styleguide';
 
 	// primary breadcrumb
 		$breadcrumb_A = 'Home';

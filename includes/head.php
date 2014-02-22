@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <? include($appRoot .'includes/variables/global_variables.php'); include('includes/variables/page_variables.php'); ?>
-    <title><?php echo($title); ?> | <?php echo($project_title); ?></title>
+    <title><?php echo($page_title); ?> | <?php echo($project_title); ?></title>
     <meta name="description" content="<?=$description?>">
     <meta name="keywords" content="<?=$keywords?>">
     <meta name="viewport" content="width=device-width">
@@ -22,7 +22,7 @@
 
 </head>
 
-<body id="<?php if ($body_ID !='') { echo($body_ID);}?>">
+<body class="<? echo $page_class; ?>">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->

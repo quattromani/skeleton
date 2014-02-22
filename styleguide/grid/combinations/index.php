@@ -73,18 +73,6 @@
 
     <div class="row text-center">
         <div class="column grid two-thirds color-primary-blue text-white">
-
-        </div>
-        <div class="column grid sixth color-primary-blue text-white">
-
-        </div>
-        <div class="column grid sixth color-primary-blue text-white">
-
-        </div>
-    </div>
-
-    <div class="row text-center">
-        <div class="column grid two-thirds color-primary-blue text-white">
         </div>
         <div class="column grid third color-primary-blue text-white">
         </div>

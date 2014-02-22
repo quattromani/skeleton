@@ -13,21 +13,14 @@
   li {
     display: inline;
     position: relative;
+    a {
+      border: none;
+    }
     &.js-last {
       margin-right: 0;
     }
-    &.active {
-      .btn {
-        background: $color-secondary-blue;
-      }
-    }
   }
-
-}
-
-@media (max-width: $bp-small) {
-
-  .pagination {
+  @include bp(bp-small) {
     @include inline-block();
     width: 100%;
     margin: 0 auto;
@@ -36,5 +29,4 @@
       display: none;
     }
   }
-
 }

@@ -15,13 +15,12 @@
   display: inline;
   position: relative;
 }
+.pagination li a {
+  border: none;
+}
 .pagination li.js-last {
   margin-right: 0;
 }
-.pagination li.active .btn {
-  background: #3bafda;
-}
-
 @media (max-width: 40em) {
   .pagination {
     display: inline-block;

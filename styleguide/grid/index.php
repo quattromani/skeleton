@@ -143,13 +143,13 @@
                 </div>
             </li>
             <li>
-                <?php if ($about) { include('grid/combinations/index.php'); } ?>
+                <?php if ($about) { include('combinations/index.php'); } ?>
             </li>
             <li>
-                <?php if ($about) { include('grid/marginless/index.php'); } ?>
+                <?php if ($about) { include('marginless/index.php'); } ?>
             </li>
             <li>
-                <?php if ($about) { include('grid/marginless/combinations/index.php'); } ?>
+                <?php if ($about) { include('marginless/combinations/index.php'); } ?>
             </li>
         </ul>
     </div>

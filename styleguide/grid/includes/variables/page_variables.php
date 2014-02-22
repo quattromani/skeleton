@@ -17,7 +17,7 @@
 
 	// Page Specific Variables
 		// Page ID tag
-		$page_ID = '';
+		$page_class = 'styleguide';
 
 		// primary breadcrumb
 		$breadcrumb_A = '';

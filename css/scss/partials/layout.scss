@@ -125,7 +125,7 @@
   &.two-fifths {
     width: (((100 - ($site-gutter-width*4))/5) * 2) + $site-gutter-width;
     .marginless & {
-      width: (100% / 5) * 2 ;
+      width: 25% ;
     }
   }
   &.two-thirds {
@@ -191,36 +191,22 @@
 @media (max-width: $bp-medium) {
 
   .column {
-    &.fourth {
+    &.half, &.third {
+      width: 100%;
+      margin-left: 0;
+    }
+    &.fourth, &.fifth, &.sixth  {
       width: (100 - ($site-gutter-width*1))/2;
-      &:nth-of-type(2n+1) {
+      &:nth-child(2n+1) {
         margin-left: 0;
       }
       .marginless & {
         width: (100% / 2);
       }
     }
-    &.fifth {
-      width: (100 - ($site-gutter-width*1))/2;
-      &:nth-of-type(2n+1) {
-        margin-left: 0;
-      }
-      .marginless & {
-        width: 100%;
-      }
-    }
-    &.sixth {
-      width: (100 - ($site-gutter-width*2))/3;
-      &:nth-of-type(3n+1) {
-        margin-left: 0;
-      }
-      .marginless & {
-        width: (100% / 3);
-      }
-    }
-    &.eigth, &.tenth, &.twelfth {
+    &.eighth, &.tenth, &.twelfth {
       width: (100 - ($site-gutter-width*3))/4;
-      &:nth-of-type(4n+1) {
+      &:nth-child(4n+1) {
         margin-left: 0;
       }
       .marginless & {
@@ -233,6 +219,18 @@
     &.two-thirds, &.three-fourths, &.three-fifths, &.four-fifths {
       width: (100%);
       margin-left: 0;
+      .marginless & {
+        width: 100%;
+      }
+    }
+    &.three-fourths + .fourth, &.three-fifths + .fifth {
+      margin-left: 0;
+      & + .fifth {
+        margin-left: $site-gutter-width;
+        .marginless & {
+          margin-left: 0;
+        }
+      }
     }
   }
 
@@ -241,29 +239,26 @@
 @media (max-width: $bp-small) {
 
   .column {
-    &.half, &.third, &.fourth, &.fifth, &.four-fifths {
+    &.fourth, &.fifth, &.four-fifths {
       width: 100%;
       margin-left: 0;
       .marginless & {
         width: 100%;
       }
     }
-    &.eighth, &.tenth, &.twelfth {
+    &.sixth, &.eighth, &.tenth, &.twelfth {
       width: (100 - ($site-gutter-width*1))/2;
-      &:nth-of-type(2n+1) {
+      &:nth-child(2n+1) {
         margin-left: 0;
       }
       .marginless & {
         width: (100% / 2);
       }
     }
-    &.sixth {
-      width: (100 - ($site-gutter-width*2))/3;
-      &:nth-of-type(3n+1) {
+    &.three-fourths + .fourth, &.three-fifths + .fifth {
+      margin-left: 0;
+      & + .fifth {
         margin-left: 0;
-      }
-      .marginless & {
-        width: (100% / 3);
       }
     }
   }

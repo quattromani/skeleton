@@ -5,28 +5,11 @@
   <div class="column-count-3">
     <div class="vertical list">
       <ul>
-        <li>
-          <i class="fa fa-fw">&#xf000</i>
-          fa-glass
-          <span class="muted">(&amp;#xf000;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf001</i>
-          fa-music
-          <span class="muted">(&amp;#xf001;)</span>
-        </li>
 
         <li>
           <i class="fa fa-fw">&#xf002</i>
           fa-search
           <span class="muted">(&amp;#xf002;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf003</i>
-          fa-envelope-o
-          <span class="muted">(&amp;#xf003;)</span>
         </li>
 
         <li>
@@ -39,12 +22,6 @@
           <i class="fa fa-fw">&#xf005</i>
           fa-star
           <span class="muted">(&amp;#xf005;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf006</i>
-          fa-star-o
-          <span class="muted">(&amp;#xf006;)</span>
         </li>
 
         <li>
@@ -120,27 +97,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf014</i>
-          fa-trash-o
-          <span class="muted">(&amp;#xf014;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf015</i>
           fa-home
           <span class="muted">(&amp;#xf015;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf016</i>
-          fa-file-o
-          <span class="muted">(&amp;#xf016;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf017</i>
-          fa-clock-o
-          <span class="muted">(&amp;#xf017;)</span>
         </li>
 
         <li>
@@ -156,27 +115,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf01a</i>
-          fa-arrow-circle-o-down
-          <span class="muted">(&amp;#xf01a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf01b</i>
-          fa-arrow-circle-o-up
-          <span class="muted">(&amp;#xf01b;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf01c</i>
           fa-inbox
           <span class="muted">(&amp;#xf01c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf01d</i>
-          fa-play-circle-o
-          <span class="muted">(&amp;#xf01d;)</span>
         </li>
 
         <li>
@@ -234,18 +175,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf029</i>
-          fa-qrcode
-          <span class="muted">(&amp;#xf029;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf02a</i>
-          fa-barcode
-          <span class="muted">(&amp;#xf02a;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf02b</i>
           fa-tag
           <span class="muted">(&amp;#xf02b;)</span>
@@ -279,12 +208,6 @@
           <i class="fa fa-fw">&#xf030</i>
           fa-camera
           <span class="muted">(&amp;#xf030;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf031</i>
-          fa-font
-          <span class="muted">(&amp;#xf031;)</span>
         </li>
 
         <li>
@@ -360,12 +283,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf03e</i>
-          fa-picture-o
-          <span class="muted">(&amp;#xf03e;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf040</i>
           fa-pencil
           <span class="muted">(&amp;#xf040;)</span>
@@ -387,24 +304,6 @@
           <i class="fa fa-fw">&#xf043</i>
           fa-tint
           <span class="muted">(&amp;#xf043;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf044</i>
-          fa-pencil-square-o
-          <span class="muted">(&amp;#xf044;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf045</i>
-          fa-share-square-o
-          <span class="muted">(&amp;#xf045;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf046</i>
-          fa-check-square-o
-          <span class="muted">(&amp;#xf046;)</span>
         </li>
 
         <li>
@@ -528,18 +427,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf05c</i>
-          fa-times-circle-o
-          <span class="muted">(&amp;#xf05c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf05d</i>
-          fa-check-circle-o
-          <span class="muted">(&amp;#xf05d;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf05e</i>
           fa-ban
           <span class="muted">(&amp;#xf05e;)</span>
@@ -609,24 +496,6 @@
           <i class="fa fa-fw">&#xf06a</i>
           fa-exclamation-circle
           <span class="muted">(&amp;#xf06a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf06b</i>
-          fa-gift
-          <span class="muted">(&amp;#xf06b;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf06c</i>
-          fa-leaf
-          <span class="muted">(&amp;#xf06c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf06d</i>
-          fa-fire
-          <span class="muted">(&amp;#xf06d;)</span>
         </li>
 
         <li>
@@ -708,12 +577,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf07c</i>
-          fa-folder-open
-          <span class="muted">(&amp;#xf07c;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf07d</i>
           fa-arrows-v
           <span class="muted">(&amp;#xf07d;)</span>
@@ -723,12 +586,6 @@
           <i class="fa fa-fw">&#xf07e</i>
           fa-arrows-h
           <span class="muted">(&amp;#xf07e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf080</i>
-          fa-bar-chart-o
-          <span class="muted">(&amp;#xf080;)</span>
         </li>
 
         <li>
@@ -750,12 +607,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf084</i>
-          fa-key
-          <span class="muted">(&amp;#xf084;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf085</i>
           fa-cogs
           <span class="muted">(&amp;#xf085;)</span>
@@ -768,27 +619,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf087</i>
-          fa-thumbs-o-up
-          <span class="muted">(&amp;#xf087;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf088</i>
-          fa-thumbs-o-down
-          <span class="muted">(&amp;#xf088;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf089</i>
           fa-star-half
           <span class="muted">(&amp;#xf089;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf08a</i>
-          fa-heart-o
-          <span class="muted">(&amp;#xf08a;)</span>
         </li>
 
         <li>
@@ -840,27 +673,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf094</i>
-          fa-lemon-o
-          <span class="muted">(&amp;#xf094;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf095</i>
           fa-phone
           <span class="muted">(&amp;#xf095;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf096</i>
-          fa-square-o
-          <span class="muted">(&amp;#xf096;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf097</i>
-          fa-bookmark-o
-          <span class="muted">(&amp;#xf097;)</span>
         </li>
 
         <li>
@@ -903,54 +718,6 @@
           <i class="fa fa-fw">&#xf09e</i>
           fa-rss
           <span class="muted">(&amp;#xf09e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a0</i>
-          fa-hdd-o
-          <span class="muted">(&amp;#xf0a0;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a1</i>
-          fa-bullhorn
-          <span class="muted">(&amp;#xf0a1;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0f3</i>
-          fa-bell
-          <span class="muted">(&amp;#xf0f3;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a3</i>
-          fa-certificate
-          <span class="muted">(&amp;#xf0a3;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a4</i>
-          fa-hand-o-right
-          <span class="muted">(&amp;#xf0a4;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a5</i>
-          fa-hand-o-left
-          <span class="muted">(&amp;#xf0a5;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a6</i>
-          fa-hand-o-up
-          <span class="muted">(&amp;#xf0a6;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0a7</i>
-          fa-hand-o-down
-          <span class="muted">(&amp;#xf0a7;)</span>
         </li>
 
         <li>
@@ -1044,21 +811,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf0c5</i>
-          fa-files-o
-          <span class="muted">(&amp;#xf0c5;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf0c6</i>
           fa-paperclip
           <span class="muted">(&amp;#xf0c6;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0c7</i>
-          fa-floppy-o
-          <span class="muted">(&amp;#xf0c7;)</span>
         </li>
 
         <li>
@@ -1101,18 +856,6 @@
           <i class="fa fa-fw">&#xf0ce</i>
           fa-table
           <span class="muted">(&amp;#xf0ce;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0d0</i>
-          fa-magic
-          <span class="muted">(&amp;#xf0d0;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0d1</i>
-          fa-truck
-          <span class="muted">(&amp;#xf0d1;)</span>
         </li>
 
         <li>
@@ -1212,30 +955,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf0e3</i>
-          fa-gavel
-          <span class="muted">(&amp;#xf0e3;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0e4</i>
-          fa-tachometer
-          <span class="muted">(&amp;#xf0e4;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0e5</i>
-          fa-comment-o
-          <span class="muted">(&amp;#xf0e5;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0e6</i>
-          fa-comments-o
-          <span class="muted">(&amp;#xf0e6;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf0e7</i>
           fa-bolt
           <span class="muted">(&amp;#xf0e7;)</span>
@@ -1257,12 +976,6 @@
           <i class="fa fa-fw">&#xf0ea</i>
           fa-clipboard
           <span class="muted">(&amp;#xf0ea;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0eb</i>
-          fa-lightbulb-o
-          <span class="muted">(&amp;#xf0eb;)</span>
         </li>
 
         <li>
@@ -1302,12 +1015,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf0a2</i>
-          fa-bell-o
-          <span class="muted">(&amp;#xf0a2;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf0f4</i>
           fa-coffee
           <span class="muted">(&amp;#xf0f4;)</span>
@@ -1320,24 +1027,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf0f6</i>
-          fa-file-text-o
-          <span class="muted">(&amp;#xf0f6;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0f7</i>
-          fa-building-o
-          <span class="muted">(&amp;#xf0f7;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0f8</i>
-          fa-hospital-o
-          <span class="muted">(&amp;#xf0f8;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf0f9</i>
           fa-ambulance
           <span class="muted">(&amp;#xf0f9;)</span>
@@ -1347,18 +1036,6 @@
           <i class="fa fa-fw">&#xf0fa</i>
           fa-medkit
           <span class="muted">(&amp;#xf0fa;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0fb</i>
-          fa-fighter-jet
-          <span class="muted">(&amp;#xf0fb;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf0fc</i>
-          fa-beer
-          <span class="muted">(&amp;#xf0fc;)</span>
         </li>
 
         <li>
@@ -1446,12 +1123,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf10c</i>
-          fa-circle-o
-          <span class="muted">(&amp;#xf10c;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf10d</i>
           fa-quote-left
           <span class="muted">(&amp;#xf10d;)</span>
@@ -1482,60 +1153,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf113</i>
-          fa-github-alt
-          <span class="muted">(&amp;#xf113;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf114</i>
-          fa-folder-o
-          <span class="muted">(&amp;#xf114;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf115</i>
-          fa-folder-open-o
-          <span class="muted">(&amp;#xf115;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf118</i>
-          fa-smile-o
-          <span class="muted">(&amp;#xf118;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf119</i>
-          fa-frown-o
-          <span class="muted">(&amp;#xf119;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf11a</i>
-          fa-meh-o
-          <span class="muted">(&amp;#xf11a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf11b</i>
-          fa-gamepad
-          <span class="muted">(&amp;#xf11b;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf11c</i>
-          fa-keyboard-o
-          <span class="muted">(&amp;#xf11c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf11d</i>
-          fa-flag-o
-          <span class="muted">(&amp;#xf11d;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf11e</i>
           fa-flag-checkered
           <span class="muted">(&amp;#xf11e;)</span>
@@ -1563,12 +1180,6 @@
           <i class="fa fa-fw">&#xf122</i>
           fa-mail-reply-all
           <span class="muted">(&amp;#xf122;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf123</i>
-          fa-star-half-o
-          <span class="muted">(&amp;#xf123;)</span>
         </li>
 
         <li>
@@ -1650,36 +1261,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf132</i>
-          fa-shield
-          <span class="muted">(&amp;#xf132;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf133</i>
-          fa-calendar-o
-          <span class="muted">(&amp;#xf133;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf134</i>
-          fa-fire-extinguisher
-          <span class="muted">(&amp;#xf134;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf135</i>
-          fa-rocket
-          <span class="muted">(&amp;#xf135;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf136</i>
-          fa-maxcdn
-          <span class="muted">(&amp;#xf136;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf137</i>
           fa-chevron-circle-left
           <span class="muted">(&amp;#xf137;)</span>
@@ -1701,24 +1282,6 @@
           <i class="fa fa-fw">&#xf13a</i>
           fa-chevron-circle-down
           <span class="muted">(&amp;#xf13a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf13b</i>
-          fa-html5
-          <span class="muted">(&amp;#xf13b;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf13c</i>
-          fa-css3
-          <span class="muted">(&amp;#xf13c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf13d</i>
-          fa-anchor
-          <span class="muted">(&amp;#xf13d;)</span>
         </li>
 
         <li>
@@ -1770,12 +1333,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf147</i>
-          fa-minus-square-o
-          <span class="muted">(&amp;#xf147;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf148</i>
           fa-level-up
           <span class="muted">(&amp;#xf148;)</span>
@@ -1815,24 +1372,6 @@
           <i class="fa fa-fw">&#xf14e</i>
           fa-compass
           <span class="muted">(&amp;#xf14e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf150</i>
-          fa-caret-square-o-down
-          <span class="muted">(&amp;#xf150;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf151</i>
-          fa-caret-square-o-up
-          <span class="muted">(&amp;#xf151;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf152</i>
-          fa-caret-square-o-right
-          <span class="muted">(&amp;#xf152;)</span>
         </li>
 
         <li>
@@ -1908,18 +1447,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf168</i>
-          fa-xing
-          <span class="muted">(&amp;#xf168;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf169</i>
-          fa-xing-square
-          <span class="muted">(&amp;#xf169;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf16a</i>
           fa-youtube-play
           <span class="muted">(&amp;#xf16a;)</span>
@@ -1932,12 +1459,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf16c</i>
-          fa-stack-overflow
-          <span class="muted">(&amp;#xf16c;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf16d</i>
           fa-instagram
           <span class="muted">(&amp;#xf16d;)</span>
@@ -1947,24 +1468,6 @@
           <i class="fa fa-fw">&#xf16e</i>
           fa-flickr
           <span class="muted">(&amp;#xf16e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf170</i>
-          fa-adn
-          <span class="muted">(&amp;#xf170;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf171</i>
-          fa-bitbucket
-          <span class="muted">(&amp;#xf171;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf172</i>
-          fa-bitbucket-square
-          <span class="muted">(&amp;#xf172;)</span>
         </li>
 
         <li>
@@ -2064,57 +1567,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf184</i>
-          fa-gittip
-          <span class="muted">(&amp;#xf184;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf185</i>
-          fa-sun-o
-          <span class="muted">(&amp;#xf185;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf186</i>
-          fa-moon-o
-          <span class="muted">(&amp;#xf186;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf187</i>
           fa-archive
           <span class="muted">(&amp;#xf187;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf188</i>
-          fa-bug
-          <span class="muted">(&amp;#xf188;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf189</i>
-          fa-vk
-          <span class="muted">(&amp;#xf189;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf18a</i>
-          fa-weibo
-          <span class="muted">(&amp;#xf18a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf18b</i>
-          fa-renren
-          <span class="muted">(&amp;#xf18b;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf18c</i>
-          fa-pagelines
-          <span class="muted">(&amp;#xf18c;)</span>
         </li>
 
         <li>
@@ -2124,51 +1579,9 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf18e</i>
-          fa-arrow-circle-o-right
-          <span class="muted">(&amp;#xf18e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf190</i>
-          fa-arrow-circle-o-left
-          <span class="muted">(&amp;#xf190;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf191</i>
-          fa-caret-square-o-left
-          <span class="muted">(&amp;#xf191;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf192</i>
-          fa-dot-circle-o
-          <span class="muted">(&amp;#xf192;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf193</i>
           fa-wheelchair
           <span class="muted">(&amp;#xf193;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf194</i>
-          fa-vimeo-square
-          <span class="muted">(&amp;#xf194;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf195</i>
-          fa-try
-          <span class="muted">(&amp;#xf195;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf196</i>
-          fa-plus-square-o
-          <span class="muted">(&amp;#xf196;)</span>
         </li>
 
       </ul>

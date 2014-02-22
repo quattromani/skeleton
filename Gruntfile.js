@@ -68,7 +68,7 @@ module.exports = function(grunt) {
           }
         },
         css: {
-          files: ['css/scss/partials/*.scss','css/scss/modules/*.scss'],
+          files: ['css/scss/partials/*.scss','css/scss/globals/*.scss'],
           tasks: ['sass', 'cssmin'],
           options: {
             spawn: false,
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('production', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
-    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
+    grunt.registerTask('dev', ['newer:concat', 'uglify', 'newer:sass', 'cssmin', 'watch']);
+    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
 
 };
