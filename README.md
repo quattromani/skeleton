@@ -8,6 +8,6 @@ Projects require initial setup of scss/_vars.scss and includes/variables/page_va
 
 ## TODO's
 
-// Build Process efficiencies
-// Rework PHP framework for better dependency between skeleton and accompanying styleguide
-// Move View Source feature into inner-sections
+* Build Process efficiencies
+* Rework PHP framework for better dependency between skeleton and accompanying styleguide
+* Move View Source feature into inner-sections
