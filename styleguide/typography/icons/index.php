@@ -1459,30 +1459,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf16d</i>
-          fa-instagram
-          <span class="muted">(&amp;#xf16d;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf16e</i>
-          fa-flickr
-          <span class="muted">(&amp;#xf16e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf173</i>
-          fa-tumblr
-          <span class="muted">(&amp;#xf173;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf174</i>
-          fa-tumblr-square
-          <span class="muted">(&amp;#xf174;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf175</i>
           fa-long-arrow-down
           <span class="muted">(&amp;#xf175;)</span>
@@ -1513,48 +1489,6 @@
         </li>
 
         <li>
-          <i class="fa fa-fw">&#xf17a</i>
-          fa-windows
-          <span class="muted">(&amp;#xf17a;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf17b</i>
-          fa-android
-          <span class="muted">(&amp;#xf17b;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf17c</i>
-          fa-linux
-          <span class="muted">(&amp;#xf17c;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf17d</i>
-          fa-dribbble
-          <span class="muted">(&amp;#xf17d;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf17e</i>
-          fa-skype
-          <span class="muted">(&amp;#xf17e;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf180</i>
-          fa-foursquare
-          <span class="muted">(&amp;#xf180;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf181</i>
-          fa-trello
-          <span class="muted">(&amp;#xf181;)</span>
-        </li>
-
-        <li>
           <i class="fa fa-fw">&#xf182</i>
           fa-female
           <span class="muted">(&amp;#xf182;)</span>
@@ -1570,12 +1504,6 @@
           <i class="fa fa-fw">&#xf187</i>
           fa-archive
           <span class="muted">(&amp;#xf187;)</span>
-        </li>
-
-        <li>
-          <i class="fa fa-fw">&#xf18d</i>
-          fa-stack-exchange
-          <span class="muted">(&amp;#xf18d;)</span>
         </li>
 
         <li>
