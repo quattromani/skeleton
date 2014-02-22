@@ -20,14 +20,14 @@ a, button, input[type="submit"] {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: none;
-  background: blue;
-  font-family: none;
+  background: #4fc1e9;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: normal;
   color: white;
   text-align: center;
 }
 .btn:hover {
-  background: blue;
+  background: #3bafda;
   color: white;
 }
 .btn.block {
@@ -41,7 +41,7 @@ a, button, input[type="submit"] {
   color: white;
 }
 .btn.js-active {
-  background: lime;
+  background: #a0d468;
 }
 @media (max-width: 40em) {
   .btn.mobile-full {
@@ -70,12 +70,12 @@ button {
   background-clip: padding-box;
   border: none;
   background: none;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: normal;
-  color: blue;
+  color: #4fc1e9;
 }
 button:hover {
-  color: blue;
+  color: #3bafda;
 }
 button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
   cursor: default;

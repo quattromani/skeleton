@@ -116,7 +116,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 .container {
   display: block;
   width: 94%;
-  max-width: 100;
+  max-width: 1024px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -341,28 +341,28 @@ article, aside, figure, footer, header, hgroup, nav, section {
   background: #999999; }
 
 .color-primary-red {
-  background: red; }
+  background: #ed5565; }
 
 .color-primary-green {
-  background: lime; }
+  background: #a0d468; }
 
 .color-primary-blue {
-  background: blue; }
+  background: #4fc1e9; }
 
 .color-primary-lav {
   background: #ac92ec; }
 
 .color-secondary-red {
-  background: red; }
+  background: #da4453; }
 
 .color-secondary-green {
-  background: lime; }
+  background: #8cc152; }
 
 .color-secondary-blue {
-  background: blue; }
+  background: #3bafda; }
 
 .color-secondary-lav {
-  background: #ac92ec; }
+  background: #967adc; }
 
 /* Typography Colors */
 .text {
@@ -372,19 +372,19 @@ article, aside, figure, footer, header, hgroup, nav, section {
   background: #333333; }
 
 .color-link {
-  background: blue; }
+  background: #4fc1e9; }
 
 .color-error {
-  background: red; }
+  background: #ed5565; }
 
 .color-info {
-  background: blue; }
+  background: #3bafda; }
 
 .color-success {
-  background: lime; }
+  background: #8cc152; }
 
 .link {
-  color: blue; }
+  color: #4fc1e9; }
 
 .text-grey {
   color: #666666; }
@@ -393,29 +393,29 @@ article, aside, figure, footer, header, hgroup, nav, section {
   color: #999999; }
 
 .text-link {
-  color: blue; }
+  color: #4fc1e9; }
 
 .text-white {
   color: white; }
 
 .text-info {
-  color: blue; }
+  color: #3bafda; }
 
 .text-muted, .muted {
   color: #999999; }
 
 .text-warning, .text-error {
-  color: red; }
+  color: #ed5565; }
 
 .error, .is-error {
-  background: #ff8080;
-  color: red; }
+  background: #f9c8cd;
+  color: #ed5565; }
 
 .text-info {
-  color: blue; }
+  color: #3bafda; }
 
 .text-success {
-  color: lime; }
+  color: #8cc152; }
 
 /* ==========================
     Primary Color Palette
@@ -465,7 +465,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
    ========================================================================== */
 html {
   height: 100%;
-  font-family: none, Arial, Sans-Serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -519,18 +519,18 @@ a {
   border-bottom: 1px dotted;
   background: transparent;
   vertical-align: baseline;
-  font-family: none, Arial, Sans-Serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-weight: 700;
-  color: blue;
+  color: #4fc1e9;
   text-decoration: none;
   cursor: pointer; }
   a img {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: blue; }
+    color: #3bafda; }
 
 /* ==========================
 	  Headings
@@ -538,38 +538,38 @@ a {
 h1, .h1 {
   font-size: 28px;
   font-size: 2.8rem;
-  font-family: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 100; }
 
 h2, .h2 {
   font-size: 26px;
   font-size: 2.6rem;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: 100; }
 
 h3, .h3 {
   font-size: 24px;
   font-size: 2.4rem;
-  font-family: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 100; }
 
 h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: 100; }
 
 h5, .h5 {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: 100;
   color: inherit; }
 
 h6, .h6 {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: 100; }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -589,7 +589,7 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
 
 p, .p {
   display: block;
-  font-family: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   word-wrap: break-word; }
 
 .b {
@@ -621,10 +621,10 @@ mark {
   background: yellow; }
 
 .base-font, .arial {
-  font-family: none; }
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 .base-font-alt, .arial-bold {
-  font-family: none; }
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; }
 
 /* ==========================
 	  Pre
@@ -656,18 +656,18 @@ code {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: #ff9999;
-  color: red;
+  background: #fcdfe2;
+  color: #ed5565;
   white-space: nowrap; }
 
 kbd, samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace; }
 
 kbd, samp {
-  color: lime; }
+  color: #a0d468; }
 
 .valid, .is-valid {
-  color: lime; }
+  color: #a0d468; }
 
 .code-comment {
   filter: alpha(opacity=50);
@@ -1147,13 +1147,13 @@ a, button, input[type="submit"] {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: none;
-  background: blue;
-  font-family: none;
+  background: #4fc1e9;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: normal;
   color: white;
   text-align: center; }
   .btn:hover {
-    background: blue;
+    background: #3bafda;
     color: white; }
   .btn.block {
     display: block;
@@ -1164,7 +1164,7 @@ a, button, input[type="submit"] {
     background: #999999;
     color: white; }
   .btn.js-active {
-    background: lime; }
+    background: #a0d468; }
   @media (max-width: 40em) {
     .btn.mobile-full {
       display: block;
@@ -1188,11 +1188,11 @@ button {
   background-clip: padding-box;
   border: none;
   background: none;
-  font-family: none;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: normal;
-  color: blue; }
+  color: #4fc1e9; }
   button:hover {
-    color: blue; }
+    color: #3bafda; }
   button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #999999;
@@ -1260,7 +1260,7 @@ input[type="submit"]:disabled {
   .pagination li.js-last {
     margin-right: 0; }
   .pagination li.active .btn {
-    background: blue; }
+    background: #3bafda; }
 
 @media (max-width: 40em) {
   .pagination {
@@ -1402,7 +1402,7 @@ input:required ~ span:after {
   position: absolute;
   left: 0;
   bottom: .25em;
-  color: red;
+  color: #ed5565;
   font-weight: 700;
   filter: alpha(opacity=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1649,7 +1649,7 @@ hr {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  color: blue;
+  color: #4fc1e9;
   text-align: center; }
 
 @media (max-width: 40em) {
@@ -1687,7 +1687,7 @@ hr {
   -moz-background-clip: padding-box;
   background-clip: padding-box; }
   .styleguide .grid:nth-of-type(even) {
-    background: blue; }
+    background: #3bafda; }
 .styleguide .prettyprint {
   display: none; }
 

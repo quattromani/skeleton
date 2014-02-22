@@ -19,7 +19,7 @@
   margin-right: 0;
 }
 .pagination li.active .btn {
-  background: blue;
+  background: #3bafda;
 }
 
 @media (max-width: 40em) {
