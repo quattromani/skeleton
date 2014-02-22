@@ -1,0 +1,134 @@
+/* ==========================================================================
+    Buttons -- Version: 0.4.1 - Updated: 1/21/2014
+   ========================================================================== */
+a, button, input[type="submit"] {
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none;
+  background: blue;
+  font-family: none;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+.btn:hover {
+  background: blue;
+  color: white;
+}
+.btn.block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active {
+  cursor: default;
+  background: #999999;
+  color: white;
+}
+.btn.js-active {
+  background: lime;
+}
+@media (max-width: 40em) {
+  .btn.mobile-full {
+    display: block;
+    width: 100%;
+  }
+  .btn.mobile-full a {
+    display: block;
+    text-align: center;
+  }
+  .btn.mobile-full + .btn.mobile-full {
+    margin-top: 1em;
+  }
+}
+
+button {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none;
+  background: none;
+  font-family: none;
+  font-weight: normal;
+  color: blue;
+}
+button:hover {
+  color: blue;
+}
+button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
+  cursor: default;
+  background: #999999;
+  color: white;
+}
+
+input[type="submit"]:disabled {
+  background-color: #bcbcbc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#838383));
+  background-image: -webkit-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -moz-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -ms-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -o-linear-gradient(top, #bcbcbc, #838383);
+  background-image: linear-gradient(top, #bcbcbc, #838383);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bcbcbc', EndColorStr='#838383')"; */
+  color: white;
+}
+input[type="submit"]:disabled:hover, input[type="submit"]:disabled:active {
+  background-color: #bcbcbc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#838383));
+  background-image: -webkit-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -moz-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -ms-linear-gradient(top, #bcbcbc, #838383);
+  background-image: -o-linear-gradient(top, #bcbcbc, #838383);
+  background-image: linear-gradient(top, #bcbcbc, #838383);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bcbcbc', EndColorStr='#838383')"; */
+  color: white;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  /* Remove button padding in FF */
+  button::-moz-focus-inner {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: 0 none;
+  }
+
+  input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: 0 none;
+  }
+}
+
+/* ie (.ie) */
+/* make buttons play nice in IE */
+.ie button {
+  overflow: visible;
+  width: auto;
+}

@@ -1,0 +1,25 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Jump To -- Version: 1.9.0.0 - Updated: 2/11/2014
+   ========================================================================== */
+
+.jumpTo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  @include padding(($padding / 2), $padding);
+  border: none;
+  @include border-radius($border-radius 0 0 0);
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.675);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+  z-index: 999999;
+  -webkit-transform: translateZ(0);
+  color: $text-white;
+  text-indent: 0.01px;
+  text-overflow: '';
+}

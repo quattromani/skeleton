@@ -1,0 +1,37 @@
+/* ==========================================================================
+    Pagination -- Version: 1.9.0.0 - Updated: 12/29/2013
+   ========================================================================== */
+.pagination ol {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.pagination li {
+  display: inline;
+  position: relative;
+}
+.pagination li.js-last {
+  margin-right: 0;
+}
+.pagination li.active .btn {
+  background: blue;
+}
+
+@media (max-width: 40em) {
+  .pagination {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pagination .pag_text {
+    display: none;
+  }
+}

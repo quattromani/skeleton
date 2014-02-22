@@ -1,0 +1,45 @@
+<?php include('../includes/config.php'); ?>
+<?php include($appRoot .'includes/header.php'); ?>
+
+<div class="styleguide">
+
+  <h1><? echo($project_title); ?> Style Guide</h1>
+
+  <hr>
+  <p>Version: 0.4.1 -- Updated: FEB 20, 2014</p>
+  <hr>
+
+<!-- Loop through and include all styleguide sections -->
+<!-- TODO // add true/false variables to project/includes/global_variables.php -->
+
+<?php if ($about) { include('about/index.php'); } ?>
+
+<?php if ($colors) { include('colors/index.php'); } ?>
+
+<?php if ($typography) { include('typography/index.php'); } ?>
+
+<?php if ($lists) { include('lists/index.php'); } ?>
+
+<?php if ($breadcrumbs) { include('breadcrumbs/index.php'); } ?>
+
+<?php if ($buttons) { include('buttons/index.php'); } ?>
+
+<?php if ($pagination) { include('pagination/index.php'); } ?>
+
+<?php if ($grid) { include('grid/index.php'); } ?>
+
+<?php if ($forms) { include('forms/index.php'); } ?>
+
+<?php if ($images) { include('images/index.php'); } ?>
+
+<?php if ($video) { include('video/index.php'); } ?>
+
+<?php if ($audio) { include('audio/index.php'); } ?>
+
+<?php if ($best_practices) { include('best_practices/index.php'); } ?>
+
+  <h2>FIN.</h2>
+
+  <?php include($appRoot .'includes/footer.php'); ?>
+
+</div>

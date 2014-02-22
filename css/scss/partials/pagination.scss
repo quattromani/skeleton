@@ -1,0 +1,40 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Pagination -- Version: 1.9.0.0 - Updated: 12/29/2013
+   ========================================================================== */
+
+.pagination {
+  ol {
+    @include margin;
+    @include padding;
+  }
+  li {
+    display: inline;
+    position: relative;
+    &.js-last {
+      margin-right: 0;
+    }
+    &.active {
+      .btn {
+        background: $color-secondary-blue;
+      }
+    }
+  }
+
+}
+
+@media (max-width: $bp-small) {
+
+  .pagination {
+    @include inline-block();
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    .pag_text {
+      display: none;
+    }
+  }
+
+}

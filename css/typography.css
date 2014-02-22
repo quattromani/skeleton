@@ -1,0 +1,251 @@
+/* ==========================================================================
+    Typography -- Version: 1.9.0.0  - Updated: 12/29/2013
+   ========================================================================== */
+html {
+  height: 100%;
+  font-family: none, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  /* set absolutely to handle zoomed/user-defined font size state */
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, button, input, select, textarea {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fonts/icons/fontawesome-webfont.eot");
+  src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================
+	  Body Text
+   ========================== */
+.lede {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.body-text {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.small-body-text {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.disclaimer-text {
+  font-size: 10.8px;
+  font-size: 1.08rem;
+}
+
+/* ==========================
+	  Links
+   ========================== */
+a {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: 1px dotted;
+  background: transparent;
+  vertical-align: baseline;
+  font-family: none, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 700;
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+a img {
+  border: 0 none;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+
+/* ==========================
+	  Headings
+   ========================== */
+h1, .h1 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-family: none;
+  font-weight: 100;
+}
+
+h2, .h2 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-family: none;
+  font-weight: 100;
+}
+
+h3, .h3 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: none;
+  font-weight: 100;
+}
+
+h4, .h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: none;
+  font-weight: 100;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: none;
+  font-weight: 100;
+  color: inherit;
+}
+
+h6, .h6 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: none;
+  font-weight: 100;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+small {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+  clear: inherit;
+  margin-bottom: 0.33333em;
+  vertical-align: middle;
+}
+
+p, .p {
+  display: block;
+  font-family: none;
+  word-wrap: break-word;
+}
+
+.b {
+  font-weight: 700;
+}
+
+blockquote {
+  border-left: 3px solid #999999;
+  color: #999999;
+  font-style: italic;
+  padding-left: 1em;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+abbr {
+  border-bottom: 1px dotted #666666;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: bottom;
+}
+
+mark {
+  background: yellow;
+}
+
+.base-font, .arial {
+  font-family: none;
+}
+
+.base-font-alt, .arial-bold {
+  font-family: none;
+}
+
+/* ==========================
+	  Pre
+   ========================== */
+pre {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  background-color: #333333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: auto;
+  padding: 1em;
+  word-wrap: break-word;
+}
+
+code {
+  padding-top: 0.1em;
+  padding-right: 0.33333em;
+  padding-bottom: 0.1em;
+  padding-left: 0.33333em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ff9999;
+  color: red;
+  white-space: nowrap;
+}
+
+kbd, samp {
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+kbd, samp {
+  color: lime;
+}
+
+.valid, .is-valid {
+  color: lime;
+}
+
+.code-comment {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}

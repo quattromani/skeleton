@@ -1,0 +1,35 @@
+/* ==========================================================================
+    Videos -- Version: 0.401 - Updated: 12/19/2014
+   ========================================================================== */
+video {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+@media (max-width: 40em) {
+  video video {
+    height: auto;
+  }
+}
+figure video {
+  margin-bottom: 1em;
+}
+
+audio, canvas {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+audio:not([controls]), canvas:not([controls]) {
+  display: none;
+}
+
+canvas {
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
