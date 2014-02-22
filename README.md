@@ -1,6 +1,6 @@
 # Skeleton
 
-Rapid Prototyping Framework with all the styleguide goodies built in. This is intended quick project starts.
+Rapid Prototyping Framework with all the styleguide goodies built in, enabling fast project starts.
 
 ## Notes
 
