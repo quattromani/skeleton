@@ -228,6 +228,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mquattromani/Sites/skeleton/.gitignore",
 		"/Users/mquattromani/Sites/skeleton/styleguide/grid/index.php",
 		"/Users/mquattromani/Sites/skeleton/includes/config.php",
 		"/Users/mquattromani/Sites/skeleton/index.php",
@@ -354,8 +355,7 @@
 		"/Users/mquattromani/Sites/skeleton/styleguide/buttons/index.php",
 		"/Users/mquattromani/Sites/skeleton/styleguide/lists/index.php",
 		"/Users/mquattromani/Sites/skeleton/js/build/production.js",
-		"/Users/mquattromani/Sites/maxquattromani/TWC/package.json",
-		"/Users/mquattromani/Sites/maxquattromani/TWC/core/js/build/package.json"
+		"/Users/mquattromani/Sites/maxquattromani/TWC/package.json"
 	],
 	"find":
 	{
