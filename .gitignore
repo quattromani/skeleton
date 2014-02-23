@@ -1,2 +1,9 @@
 # Ignore sass-cache files.
 /*.sass-cache*
+
+# Ignore sublime grunt cache
+/*.sublime-grunt.cache
+
+# Ignore sublime project files
+/*.sublime-project
+/*.sublime-workspace
