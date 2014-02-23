@@ -1,5 +1,37 @@
 /* Mixins and Variables */
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* Base */
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     CSS Code for all Global Elements and Site-Wide Selectors
 
@@ -107,6 +139,22 @@ article, aside, figure, footer, header, hgroup, nav, section {
   box-sizing: border-box; }
 
 /* Layout */
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Updated: 2/17/2014
    ========================================================================== */
@@ -133,105 +181,298 @@ article, aside, figure, footer, header, hgroup, nav, section {
   z-index: 0; }
 
 /* Clearfix */
-.clearfix, .row, .box-column {
+.clearfix, .box-column {
   *zoom: 1; }
-  .clearfix:before, .clearfix:after, .row:before, .box-column:before, .row:after, .box-column:after {
+  .clearfix:before, .clearfix:after, .box-column:before, .box-column:after {
     content: " ";
     display: table; }
-  .clearfix:after, .row:after, .box-column:after {
+  .clearfix:after, .box-column:after {
     clear: both; }
 
 /* ==========================
     Grid
    ========================== */
 .row {
+  float: left;
+  clear: both;
+  width: 100%;
   margin-bottom: 1em; }
   .row:last-of-type {
     margin-bottom: 0; }
 
-.column {
+.full {
   float: left;
-  min-height: 1px;
   width: 100%;
-  margin-left: 2%;
-  border: 0;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box; }
-  .column:first-of-type {
-    margin-left: 0; }
+  margin-right: 0; }
 
-.column.full {
-  width: 100%; }
-.column.half {
-  width: 49%; }
-  .marginless .column.half {
-    width: 50%; }
-.column.third {
-  width: 32%; }
-  .marginless .column.third {
-    width: 33.33333%; }
-.column.fourth {
-  width: 23.5%; }
-  .marginless .column.fourth {
-    width: 25%; }
-.column.fifth {
-  width: 18.4%; }
-  .marginless .column.fifth {
-    width: 20%; }
-.column.sixth {
-  width: 15%; }
-  .marginless .column.sixth {
-    width: 16.66667%; }
-.column.eighth {
-  width: 10.75%; }
-  .marginless .column.eighth {
-    width: 12.5%; }
-.column.tenth {
-  width: 8.2%; }
-  .marginless .column.tenth {
-    width: 10%; }
-.column.twelfth {
-  width: 6.5%; }
-  .marginless .column.twelfth {
-    width: 8.33333%; }
-.column.three-eighths {
-  width: 36.25%; }
-  .marginless .column.three-eighths {
-    width: 37.5%; }
-.column.two-fifths {
-  width: 38.8%; }
-  .marginless .column.two-fifths {
-    width: 25%; }
-.column.two-thirds {
-  width: 66%; }
-  .marginless .column.two-thirds {
-    width: 66.66667%; }
-.column.five-eighths {
-  width: 61.75%; }
-  .marginless .column.five-eighths {
-    width: 62.5%; }
-.column.three-fourths {
-  width: 74.5%; }
-  .marginless .column.three-fourths {
-    width: 75%; }
-.column.three-fifths {
-  width: 59.2%; }
-  .marginless .column.three-fifths {
-    width: 60%; }
-.column.four-fifths {
-  width: 79.6%; }
-  .marginless .column.four-fifths {
-    width: 80%; }
-.marginless .column {
-  margin-left: 0; }
-
-.push {
-  float: right; }
-
-.pull {
+.halfs {
   float: left;
-  margin-left: 0; }
+  width: 49%;
+  margin-right: 2%; }
+  .halfs:last-child {
+    margin-right: 0; }
+  @media (max-width: 40em) {
+    .halfs {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.thirds {
+  float: left;
+  width: 32%;
+  margin-right: 2%; }
+  .thirds:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .thirds {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .thirds:nth-child(even) {
+        margin-right: 0; } }
+  @media (max-width: 40em) {
+    .thirds {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.fourths {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%; }
+  .fourths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .fourths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .fourths:nth-child(even) {
+        margin-right: 0; } }
+
+.fifths {
+  float: left;
+  width: 18.4%;
+  margin-right: 2%; }
+  .fifths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .fifths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .fifths:nth-child(even) {
+        margin-right: 0; } }
+
+.sixths {
+  float: left;
+  width: 15%;
+  margin-right: 2%; }
+  .sixths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .sixths {
+      float: left;
+      width: 32%;
+      margin-right: 2%; }
+      .sixths:nth-child(3n) {
+        margin-right: 0; } }
+
+.sevenths {
+  float: left;
+  width: 12.57143%;
+  margin-right: 2%; }
+  .sevenths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .sevenths {
+      float: left;
+      width: 32%;
+      margin-right: 2%; }
+      .sevenths:nth-child(3n) {
+        margin-right: 0; } }
+
+.eighths {
+  float: left;
+  width: 10.75%;
+  margin-right: 2%; }
+  .eighths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .eighths {
+      float: left;
+      width: 23.5%;
+      margin-right: 2%; }
+      .eighths:nth-child(4n) {
+        margin-right: 0; } }
+  @media (max-width: 40em) {
+    .eighths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .eighths:nth-child(2n) {
+        margin-right: 0; } }
+
+.ninths {
+  float: left;
+  width: 9.33333%;
+  margin-right: 2%; }
+  .ninths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .ninths {
+      float: left;
+      width: 32%;
+      margin-right: 2%; }
+      .ninths:nth-child(3n) {
+        margin-right: 0; } }
+
+.tenths {
+  float: left;
+  width: 8.2%;
+  margin-right: 2%; }
+  .tenths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .tenths {
+      float: left;
+      width: 23.5%;
+      margin-right: 2%; }
+      .tenths:nth-child(4n) {
+        margin-right: 0; } }
+  @media (max-width: 40em) {
+    .tenths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .tenths:nth-child(2n) {
+        margin-right: 0; } }
+
+.elevenths {
+  float: left;
+  width: 7.27273%;
+  margin-right: 2%; }
+  .elevenths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .elevenths {
+      float: left;
+      width: 23.5%;
+      margin-right: 2%; }
+      .elevenths:nth-child(4n) {
+        margin-right: 0; } }
+  @media (max-width: 40em) {
+    .elevenths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; }
+      .elevenths:nth-child(2n) {
+        margin-right: 0; } }
+
+.twelfths {
+  float: left;
+  width: 6.5%;
+  margin-right: 2%; }
+  .twelfths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .twelfths {
+      float: left;
+      width: 15%;
+      margin-right: 2%; }
+      .twelfths:nth-child(6n) {
+        margin-right: 0; } }
+  @media (max-width: 48em) {
+    .twelfths {
+      float: left;
+      width: 32%;
+      margin-right: 2%; }
+      .twelfths:nth-child(3n) {
+        margin-right: 0; } }
+
+.two-fifths {
+  float: left;
+  width: 38.8%;
+  margin-right: 2%; }
+  .two-fifths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .two-fifths {
+      float: left;
+      width: 49%;
+      margin-right: 2%; } }
+
+.three-fifths {
+  float: left;
+  width: 59.2%;
+  margin-right: 2%; }
+  .three-fifths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .three-fifths {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.four-fifths {
+  float: left;
+  width: 79.6%;
+  margin-right: 2%; }
+  .four-fifths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .four-fifths {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.two-thirds {
+  float: left;
+  width: 66%;
+  margin-right: 2%; }
+  .two-thirds:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .two-thirds {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.three-fourths {
+  float: left;
+  width: 74.5%;
+  margin-right: 2%; }
+  .three-fourths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .three-fourths {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.three-eighths {
+  float: left;
+  width: 36.25%;
+  margin-right: 2%; }
+  .three-eighths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .three-eighths {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
+
+.five-eighths {
+  float: left;
+  width: 61.75%;
+  margin-right: 2%; }
+  .five-eighths:last-child {
+    margin-right: 0; }
+  @media (max-width: 48em) {
+    .five-eighths {
+      float: left;
+      width: 100%;
+      margin-right: 0; } }
 
 /* ==========================
     Multi Column
@@ -266,62 +507,23 @@ article, aside, figure, footer, header, hgroup, nav, section {
   -ms-column-gap: 2em;
   column-gap: 2em; }
 
-@media (max-width: 48em) {
-  .column.half, .column.third {
-    width: 100%;
-    margin-left: 0; }
-  .column.fourth, .column.fifth, .column.sixth {
-    width: 49%; }
-    .column.fourth:nth-child(2n+1), .column.fifth:nth-child(2n+1), .column.sixth:nth-child(2n+1) {
-      margin-left: 0; }
-    .marginless .column.fourth, .marginless .column.fifth, .marginless .column.sixth {
-      width: 50%; }
-  .column.eighth, .column.tenth, .column.twelfth {
-    width: 23.5%; }
-    .column.eighth:nth-child(4n+1), .column.tenth:nth-child(4n+1), .column.twelfth:nth-child(4n+1) {
-      margin-left: 0; }
-    .marginless .column.eighth, .marginless .column.tenth, .marginless .column.twelfth {
-      width: 25%; }
-  .column.two-fifths {
-    width: 49%; }
-  .column.two-thirds, .column.three-fourths, .column.three-fifths, .column.four-fifths {
-    width: 100%;
-    margin-left: 0; }
-    .marginless .column.two-thirds, .marginless .column.three-fourths, .marginless .column.three-fifths, .marginless .column.four-fifths {
-      width: 100%; }
-  .column.three-fourths + .fourth, .column.three-fifths + .fifth {
-    margin-left: 0; }
-    .column.three-fourths + .fourth + .fifth, .column.three-fifths + .fifth + .fifth {
-      margin-left: 2%; }
-      .marginless .column.three-fourths + .fourth + .fifth, .marginless .column.three-fifths + .fifth + .fifth {
-        margin-left: 0; } }
-@media (max-width: 40em) {
-  .column.fourth, .column.fifth, .column.four-fifths {
-    width: 100%;
-    margin-left: 0; }
-    .marginless .column.fourth, .marginless .column.fifth, .marginless .column.four-fifths {
-      width: 100%; }
-  .column.sixth, .column.eighth, .column.tenth, .column.twelfth {
-    width: 49%; }
-    .column.sixth:nth-child(2n+1), .column.eighth:nth-child(2n+1), .column.tenth:nth-child(2n+1), .column.twelfth:nth-child(2n+1) {
-      margin-left: 0; }
-    .marginless .column.sixth, .marginless .column.eighth, .marginless .column.tenth, .marginless .column.twelfth {
-      width: 50%; }
-  .column.three-fourths + .fourth, .column.three-fifths + .fifth {
-    margin-left: 0; }
-    .column.three-fourths + .fourth + .fifth, .column.three-fifths + .fifth + .fifth {
-      margin-left: 0; }
-
-  [class*='two_column_'], [class*='three_column_'], [class*='four_column_'] {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -ms-column-count: 1;
-    column-count: 1;
-    -webkit-column-gap: 0;
-    -moz-column-gap: 0;
-    -ms-column-gap: 0;
-    column-gap: 0; } }
 /* Modules */
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.2 - Updated: 2/19/2014
    ========================================================================== */
@@ -457,6 +659,22 @@ article, aside, figure, footer, header, hgroup, nav, section {
 .ie9 [class*='gradient'] {
   filter: none; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Typography -- Version: 1.9.0.0  - Updated: 12/29/2013
    ========================================================================== */
@@ -673,6 +891,22 @@ kbd, samp {
   -khtml-opacity: 0.5;
   opacity: 0.5; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Updated: 12/29/2013
    ========================================================================== */
@@ -1025,6 +1259,22 @@ kbd, samp {
     -moz-column-gap: 0;
     -ms-column-gap: 0;
     column-gap: 0; } }
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Lists -- Version: 1.9.0.0 - Updated: 12/29/2013
    ========================================================================== */
@@ -1123,6 +1373,22 @@ dt {
 dd {
   margin-left: 1em; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Buttons -- Version: 0.4.1 - Updated: 1/21/2014
    ========================================================================== */
@@ -1239,6 +1505,22 @@ input[type="submit"]:disabled {
   overflow: visible;
   width: auto; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Updated: 12/29/2013
    ========================================================================== */
@@ -1269,6 +1551,22 @@ input[type="submit"]:disabled {
     .pagination .pag_text {
       display: none; } }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Accessibility -- Version: 0.4.2 - Updated: 2/1/14
    ========================================================================== */
@@ -1298,6 +1596,22 @@ input[type="submit"]:disabled {
     position: static;
     width: auto; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Updated: 12/29/2013
    ========================================================================== */
@@ -1441,6 +1755,22 @@ input:required:invalid.instruct ~ span:after {
 @media (max-width: 40em) {
   .form-item.split {
     width: 100%; } }
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Images -- Version: 0.4.0 - Updated: 2/19/2014
    ========================================================================== */
@@ -1506,6 +1836,22 @@ img {
 .ie9 svg:not(:root) {
   overflow: hidden; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Videos -- Version: 0.401 - Updated: 12/19/2014
    ========================================================================== */
@@ -1535,6 +1881,22 @@ canvas {
   left: 0;
   max-width: 100%; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Updated: 12/29/2013
    ========================================================================== */
@@ -1563,6 +1925,22 @@ hr {
   border-top: 1px solid #999999;
   border-bottom: 1px solid white; }
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row div */
+/* create a column div */
+/* make an element span n columns */
+/* the last column in a row needs this */
+/* prepend n blank columns  */
+/* append n blank columns */
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Updated: 2/11/2014
    ========================================================================== */
@@ -1682,9 +2060,8 @@ hr {
   border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
-  background-clip: padding-box; }
-  .styleguide .grid:nth-of-type(even) {
-    background: #3bafda; }
+  background-clip: padding-box;
+  background: #3bafda; }
 .styleguide .prettyprint {
   display: none; }
 

@@ -20,9 +20,7 @@
   .grid {
     @extend .colors;
     @include border-radius(0);
-    &:nth-of-type(even) {
       background: $color-secondary-blue;
-    }
   }
 
   .prettyprint {

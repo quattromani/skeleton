@@ -1,5 +1,60 @@
 // Mixins
 
+/*
+  Choose a grid width, the number of columns and the margin between columns.
+  The result of the following equation has to be an integer, not a fraction:
+
+  (width - (columns - 1) * col_margin) / columns = N
+*/
+
+$width: 100%;   /* total with of page */
+$site-column-count: 12 !default;    /* number of columns */
+$site-gutter-width: 2% !default;  /* margin between columns */
+
+/* math magic */
+$col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
+$col-total-width: $col-width + $site-gutter-width;
+
+/* create row div */
+@mixin row() {
+  float: left;
+  clear: both;
+  width: $width;
+  margin-bottom: $margin;
+}
+
+/* create a column div */
+@mixin col($n: 1) {
+  float: left;
+  @include span($n);
+}
+
+/* make an element span n columns */
+@mixin span($n: 1) {
+  width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
+  @if $n == $site-column-count {
+    margin-right: 0;
+  } @else {
+    margin-right: $site-gutter-width;
+  }
+}
+
+/* the last column in a row needs this */
+@mixin last() {
+  margin-right: 0;
+}
+
+/* prepend n blank columns  */
+@mixin prepend($n: 1) {
+  margin-left: $col-total-width * $n;
+}
+
+/* append n blank columns */
+@mixin append($n: 1) {
+  margin-right: $col-total-width * $n + $site-gutter-width;
+}
+
+
 // Breakpoint
 @mixin bp($point) {
   @if $point == bp-medium {
