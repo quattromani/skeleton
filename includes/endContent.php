@@ -6,5 +6,5 @@
     <? if ($scrollTo) { echo '<a href="" id="scrollToTop" class="scrollToTop">Scroll to top</a>'; } ?>
 
     <div class="loadtime">loadtime</div>
-    <div class="pv" id="toggleMedia">print view</div>
+<!-- <div class="pv" id="toggleMedia">print view</div> -->
     <div class="viewport">viewport</div>
