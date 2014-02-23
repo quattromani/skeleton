@@ -5,10 +5,6 @@
     Layout -- Version: 1.9.0.2 - Updated: 2/17/2014
    ========================================================================== */
 
-.full {
-  width: 100%;
-}
-
 .container {
   display: block;
   width: 94%;
@@ -61,7 +57,7 @@
   @include col($site-column-count);
 }
 
-.halfs {
+.half {
   @include col($site-column-count / 2);
   &:last-child {
     @include last;
@@ -71,7 +67,7 @@
   }
 }
 
-.thirds {
+.third {
   @include col($site-column-count / 3);
   &:last-child {
     @include last;
@@ -87,7 +83,7 @@
   }
 }
 
-.fourths {
+.fourth {
   @include col($site-column-count / 4);
   &:last-child {
     @include last;
@@ -98,9 +94,13 @@
       @include last;
     }
   }
+  @include bp(bp-small) {
+    @include col($site-column-count);
+    @include last;
+  }
 }
 
-.fifths {
+.fifth {
   @include col($site-column-count / 5);
   &:last-child {
     @include last;
@@ -111,9 +111,13 @@
       @include last;
     }
   }
+  @include bp(bp-small) {
+    @include col($site-column-count);
+    @include last;
+  }
 }
 
-.sixths {
+.sixth {
   @include col($site-column-count / 6);
   &:last-child {
     @include last;
@@ -126,7 +130,7 @@
   }
 }
 
-.sevenths {
+.seventh {
   @include col($site-column-count / 7);
   &:last-child {
     @include last;
@@ -139,7 +143,7 @@
   }
 }
 
-.eighths {
+.eighth {
   @include col($site-column-count / 8);
   &:last-child {
     @include last;
@@ -158,7 +162,7 @@
   }
 }
 
-.ninths {
+.ninth {
   @include col($site-column-count / 9);
   &:last-child {
     @include last;
@@ -171,7 +175,7 @@
   }
 }
 
-.tenths {
+.tenth {
   @include col($site-column-count / 10);
   &:last-child {
     @include last;
@@ -190,7 +194,7 @@
   }
 }
 
-.elevenths {
+.eleventh {
   @include col($site-column-count / 11);
   &:last-child {
     @include last;
@@ -209,7 +213,7 @@
   }
 }
 
-.twelfths {
+.twelfth {
   @include col($site-column-count / 12);
   &:last-child {
     @include last;

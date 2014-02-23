@@ -2,7 +2,7 @@
 @import "../globals/allGlobals";
 
 /* ==========================================================================
-    Forms -- Version: 0.4.0 - Updated: 12/29/2013
+    Forms -- Version: 0.4.0 - Updated: 2/23/2014
    ========================================================================== */
 
 input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea, label, select {
@@ -12,7 +12,7 @@ input[type='search'], input[type='text'], input[type='email'], input[type='texta
 input, textarea {
   width: 100%;
   max-width: 100%;
-  padding: .4125em 1em;
+  @include padding(.4125em,.5em);
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
@@ -29,7 +29,7 @@ input, textarea {
 select {
   width: 100%;
   max-width: 100%;
-  @include padding(.4em,.5em);
+  @include padding(.375em,.5em);
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
@@ -55,14 +55,6 @@ input {
   }
 }
 
-select {
-  @include margin;
-}
-
-// input.twc-text:focus {
-//   color: #666;
-// }
-
 .formitem {
   position: relative;
   float: left;
@@ -83,7 +75,7 @@ select {
   }
 }
 
-.form-item {
+.formitem {
   display: inline-block;
   position: relative;
   width: 100%;
@@ -143,7 +135,7 @@ input:required:invalid.instruct ~ span:after {
 
 @media (max-width: $bp-small) {
 
-  .form-item.split {
+  .formitem.split {
     width: 100%;
   }
 

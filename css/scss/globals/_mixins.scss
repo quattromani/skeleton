@@ -1,12 +1,6 @@
 // Mixins
 
-/*
-  Choose a grid width, the number of columns and the margin between columns.
-  The result of the following equation has to be an integer, not a fraction:
-
-  (width - (columns - 1) * col_margin) / columns = N
-*/
-
+// Column / Grid Control
 $width: 100%;   /* total with of page */
 $site-column-count: 12 !default;    /* number of columns */
 $site-gutter-width: 2% !default;  /* margin between columns */
@@ -15,7 +9,7 @@ $site-gutter-width: 2% !default;  /* margin between columns */
 $col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
 $col-total-width: $col-width + $site-gutter-width;
 
-/* create row div */
+/* create row  */
 @mixin row() {
   float: left;
   clear: both;
@@ -23,13 +17,13 @@ $col-total-width: $col-width + $site-gutter-width;
   margin-bottom: $margin;
 }
 
-/* create a column div */
+/* create a column */
 @mixin col($n: 1) {
   float: left;
   @include span($n);
 }
 
-/* make an element span n columns */
+/* element span n columns */
 @mixin span($n: 1) {
   width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
   @if $n == $site-column-count {
@@ -39,7 +33,7 @@ $col-total-width: $col-width + $site-gutter-width;
   }
 }
 
-/* the last column in a row needs this */
+/* remove margin from all last columns */
 @mixin last() {
   margin-right: 0;
 }
@@ -53,7 +47,6 @@ $col-total-width: $col-width + $site-gutter-width;
 @mixin append($n: 1) {
   margin-right: $col-total-width * $n + $site-gutter-width;
 }
-
 
 // Breakpoint
 @mixin bp($point) {

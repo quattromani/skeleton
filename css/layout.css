@@ -1,26 +1,16 @@
-/*
-  Choose a grid width, the number of columns and the margin between columns.
-  The result of the following equation has to be an integer, not a fraction:
-
-  (width - (columns - 1) * col_margin) / columns = N
-*/
 /* total with of page */
 /* number of columns */
 /* margin between columns */
 /* math magic */
-/* create row div */
-/* create a column div */
-/* make an element span n columns */
-/* the last column in a row needs this */
+/* create row  */
+/* create a column */
+/* element span n columns */
+/* remove margin from all last columns */
 /* prepend n blank columns  */
 /* append n blank columns */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Updated: 2/17/2014
    ========================================================================== */
-.full {
-  width: 100%;
-}
-
 .container {
   display: block;
   width: 94%;
@@ -73,255 +63,271 @@
   margin-right: 0;
 }
 
-.halfs {
+.half {
   float: left;
   width: 49%;
   margin-right: 2%;
 }
-.halfs:last-child {
+.half:last-child {
   margin-right: 0;
 }
 @media (max-width: 40em) {
-  .halfs {
+  .half {
     float: left;
     width: 100%;
     margin-right: 0;
   }
 }
 
-.thirds {
+.third {
   float: left;
   width: 32%;
   margin-right: 2%;
 }
-.thirds:last-child {
+.third:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .thirds {
+  .third {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .thirds:nth-child(even) {
+  .third:nth-child(even) {
     margin-right: 0;
   }
 }
 @media (max-width: 40em) {
-  .thirds {
+  .third {
     float: left;
     width: 100%;
     margin-right: 0;
   }
 }
 
-.fourths {
+.fourth {
   float: left;
   width: 23.5%;
   margin-right: 2%;
 }
-.fourths:last-child {
+.fourth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .fourths {
+  .fourth {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .fourths:nth-child(even) {
+  .fourth:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 40em) {
+  .fourth {
+    float: left;
+    width: 100%;
+    margin-right: 0;
     margin-right: 0;
   }
 }
 
-.fifths {
+.fifth {
   float: left;
   width: 18.4%;
   margin-right: 2%;
 }
-.fifths:last-child {
+.fifth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .fifths {
+  .fifth {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .fifths:nth-child(even) {
+  .fifth:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 40em) {
+  .fifth {
+    float: left;
+    width: 100%;
+    margin-right: 0;
     margin-right: 0;
   }
 }
 
-.sixths {
+.sixth {
   float: left;
   width: 15%;
   margin-right: 2%;
 }
-.sixths:last-child {
+.sixth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .sixths {
+  .sixth {
     float: left;
     width: 32%;
     margin-right: 2%;
   }
-  .sixths:nth-child(3n) {
+  .sixth:nth-child(3n) {
     margin-right: 0;
   }
 }
 
-.sevenths {
+.seventh {
   float: left;
   width: 12.57143%;
   margin-right: 2%;
 }
-.sevenths:last-child {
+.seventh:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .sevenths {
+  .seventh {
     float: left;
     width: 32%;
     margin-right: 2%;
   }
-  .sevenths:nth-child(3n) {
+  .seventh:nth-child(3n) {
     margin-right: 0;
   }
 }
 
-.eighths {
+.eighth {
   float: left;
   width: 10.75%;
   margin-right: 2%;
 }
-.eighths:last-child {
+.eighth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .eighths {
+  .eighth {
     float: left;
     width: 23.5%;
     margin-right: 2%;
   }
-  .eighths:nth-child(4n) {
+  .eighth:nth-child(4n) {
     margin-right: 0;
   }
 }
 @media (max-width: 40em) {
-  .eighths {
+  .eighth {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .eighths:nth-child(2n) {
+  .eighth:nth-child(2n) {
     margin-right: 0;
   }
 }
 
-.ninths {
+.ninth {
   float: left;
   width: 9.33333%;
   margin-right: 2%;
 }
-.ninths:last-child {
+.ninth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .ninths {
+  .ninth {
     float: left;
     width: 32%;
     margin-right: 2%;
   }
-  .ninths:nth-child(3n) {
+  .ninth:nth-child(3n) {
     margin-right: 0;
   }
 }
 
-.tenths {
+.tenth {
   float: left;
   width: 8.2%;
   margin-right: 2%;
 }
-.tenths:last-child {
+.tenth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .tenths {
+  .tenth {
     float: left;
     width: 23.5%;
     margin-right: 2%;
   }
-  .tenths:nth-child(4n) {
+  .tenth:nth-child(4n) {
     margin-right: 0;
   }
 }
 @media (max-width: 40em) {
-  .tenths {
+  .tenth {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .tenths:nth-child(2n) {
+  .tenth:nth-child(2n) {
     margin-right: 0;
   }
 }
 
-.elevenths {
+.eleventh {
   float: left;
   width: 7.27273%;
   margin-right: 2%;
 }
-.elevenths:last-child {
+.eleventh:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .elevenths {
+  .eleventh {
     float: left;
     width: 23.5%;
     margin-right: 2%;
   }
-  .elevenths:nth-child(4n) {
+  .eleventh:nth-child(4n) {
     margin-right: 0;
   }
 }
 @media (max-width: 40em) {
-  .elevenths {
+  .eleventh {
     float: left;
     width: 49%;
     margin-right: 2%;
   }
-  .elevenths:nth-child(2n) {
+  .eleventh:nth-child(2n) {
     margin-right: 0;
   }
 }
 
-.twelfths {
+.twelfth {
   float: left;
   width: 6.5%;
   margin-right: 2%;
 }
-.twelfths:last-child {
+.twelfth:last-child {
   margin-right: 0;
 }
 @media (max-width: 48em) {
-  .twelfths {
+  .twelfth {
     float: left;
     width: 15%;
     margin-right: 2%;
   }
-  .twelfths:nth-child(6n) {
+  .twelfth:nth-child(6n) {
     margin-right: 0;
   }
 }
 @media (max-width: 48em) {
-  .twelfths {
+  .twelfth {
     float: left;
     width: 32%;
     margin-right: 2%;
   }
-  .twelfths:nth-child(3n) {
+  .twelfth:nth-child(3n) {
     margin-right: 0;
   }
 }

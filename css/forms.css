@@ -1,21 +1,15 @@
-/*
-  Choose a grid width, the number of columns and the margin between columns.
-  The result of the following equation has to be an integer, not a fraction:
-
-  (width - (columns - 1) * col_margin) / columns = N
-*/
 /* total with of page */
 /* number of columns */
 /* margin between columns */
 /* math magic */
-/* create row div */
-/* create a column div */
-/* make an element span n columns */
-/* the last column in a row needs this */
+/* create row  */
+/* create a column */
+/* element span n columns */
+/* remove margin from all last columns */
 /* prepend n blank columns  */
 /* append n blank columns */
 /* ==========================================================================
-    Forms -- Version: 0.4.0 - Updated: 12/29/2013
+    Forms -- Version: 0.4.0 - Updated: 2/23/2014
    ========================================================================== */
 input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea, label, select {
   font-size: 16px;
@@ -25,7 +19,10 @@ input[type='search'], input[type='text'], input[type='email'], input[type='texta
 input, textarea {
   width: 100%;
   max-width: 100%;
-  padding: .4125em 1em;
+  padding-top: 0.4125em;
+  padding-right: 0.5em;
+  padding-bottom: 0.4125em;
+  padding-left: 0.5em;
   border: 0;
   border: 1px solid #999999;
   -webkit-border-radius: 4px;
@@ -45,9 +42,9 @@ input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-s
 select {
   width: 100%;
   max-width: 100%;
-  padding-top: 0.4em;
+  padding-top: 0.375em;
   padding-right: 0.5em;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.375em;
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #999999;
@@ -85,13 +82,6 @@ input[type="text"], input[type="search"], input[type="tel"] {
   margin-left: 0;
 }
 
-select {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-}
-
 .formitem {
   position: relative;
   float: left;
@@ -115,7 +105,7 @@ select {
   margin-left: 0;
 }
 
-.form-item {
+.formitem {
   display: inline-block;
   position: relative;
   width: 100%;
@@ -124,7 +114,7 @@ select {
   margin-bottom: 0.5em;
   margin-left: 0;
 }
-.form-item.split {
+.formitem.split {
   width: auto;
 }
 
@@ -182,7 +172,7 @@ input:required:invalid.instruct ~ span:after {
 }
 
 @media (max-width: 40em) {
-  .form-item.split {
+  .formitem.split {
     width: 100%;
   }
 }

@@ -1,17 +1,11 @@
-/*
-  Choose a grid width, the number of columns and the margin between columns.
-  The result of the following equation has to be an integer, not a fraction:
-
-  (width - (columns - 1) * col_margin) / columns = N
-*/
 /* total with of page */
 /* number of columns */
 /* margin between columns */
 /* math magic */
-/* create row div */
-/* create a column div */
-/* make an element span n columns */
-/* the last column in a row needs this */
+/* create row  */
+/* create a column */
+/* element span n columns */
+/* remove margin from all last columns */
 /* prepend n blank columns  */
 /* append n blank columns */
 /* ==========================================================================
@@ -40,6 +34,14 @@ body, button, input, select, textarea {
   src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.base-font, .arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.base-font-alt, .arial-bold {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
 /* ==========================
@@ -170,6 +172,10 @@ p, .p {
   font-weight: 700;
 }
 
+.uppercase {
+  text-transform: capitalize;
+}
+
 blockquote {
   border-left: 3px solid #999999;
   color: #999999;
@@ -200,14 +206,6 @@ sub {
 
 mark {
   background: yellow;
-}
-
-.base-font, .arial {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.base-font-alt, .arial-bold {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
 /* ==========================

@@ -1,26 +1,16 @@
 /* ==========================================================================
-    Prototype -- Version: 1.9.0.5  - Updated: 2/14/2014
+    Prototype -- Version: 0.4.4  - Updated: 2/23/2014
    ========================================================================== */
 
 // For Prototype Demo ONLY!! Don't ever ingest this file...EVER!
 
-.viewport, .loadtime, .pv {
+.viewport, .loadtime {
   position: fixed;
   @include padding(.5em, 1em);
   background: rgb(0,0,0);
   background: rgba(0,0,0,.675);
   font-family: $pre;
   color: #0f0;
-}
-
-.pv {
-  top: 0;
-  left: 0;
-  @include border-radius(0 0 $border-radius 0);
-  cursor: pointer;
-  @include bp(bp-small) {
-    display: none;
-  }
 }
 
 .viewport {

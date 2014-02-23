@@ -3,9 +3,8 @@
 // Set Page variable values
 
 	// header.php variables
-		// Project
-		$project_title = 'Skeleton';
 		// Page Title
+		$project_title = basename(dirname($_SERVER['PHP_SELF']));
 
 		// Page Description
 		$description = 'Search the website of Time Warner Cable for products, services, news, events and more.';

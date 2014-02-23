@@ -30,46 +30,6 @@
  */
 
 /* ==========================================================================
-    Base: Colors
-   ========================================================================== */
-/*
-
- 	$color-white: #fff;
-  $color-off-white: #f2f2f2;
-  $color-black: #000;
-  $color-grey: #666;
-
-  // Semantic Colors
-
-  $color-primary-red: #ed5565;
-  $color-secondary-red: #da4453;
-  $color-primary-green: #a0d468;
-  $color-secondary-green: #8cc152;
-  $color-primary-blue: #4fc1e9;
-  $color-secondary-blue: #3bafda;
-  $color-primary-lav: #ac92ec;
-  $color-secondary-lav: #967adc;
-
-  $color-dark-grey: darken($color-grey, 20%);
-  $color-light-grey: lighten($color-grey, 20%);
-  $color-light-light-grey: lighten($color-light-grey, 20%);
-
-  // Typography
-  $text: $color-dark-grey;
-  $text-color: $text;
-  $link: $color-primary-blue;
-  $link-hover: $color-secondary-blue;
-  $text-grey: $color-grey;
-  $text-light-grey: $color-light-grey;
-  $text-link: $link;
-  $text-white: $color-white;
-  $text-error: $color-primary-red;
-  $text-success: $color-secondary-green;
-  $text-info: $color-secondary-blue;
-
-*/
-
-/* ==========================================================================
     Base: Defaults
    ========================================================================== */
 /* ==========================
@@ -86,8 +46,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 html, body {
-  height:100%;
-  overflow:auto
+  height: 100%;
+  overflow: auto
 }
 
 body {

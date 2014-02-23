@@ -4,7 +4,7 @@
 <h1><? echo($project_title); ?> Style Guide</h1>
 
 <hr>
-<p>Version: 0.4.1 -- Updated: FEB 20, 2014</p>
+<p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->

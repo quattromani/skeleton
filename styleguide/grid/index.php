@@ -7,128 +7,128 @@
     </div>
 
     <div class="row">
-        <div class="halfs grid"></div>
-        <div class="halfs grid"></div>
+        <div class="half grid"></div>
+        <div class="half grid"></div>
     </div>
 
     <div class="row">
-        <div class="thirds grid"></div>
-        <div class="thirds grid"></div>
-        <div class="thirds grid"></div>
+        <div class="third grid"></div>
+        <div class="third grid"></div>
+        <div class="third grid"></div>
     </div>
 
     <div class="row">
-        <div class="fourths grid"></div>
-        <div class="fourths grid"></div>
-        <div class="fourths grid"></div>
-        <div class="fourths grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
     </div>
 
     <div class="row">
-        <div class="fifths grid"></div>
-        <div class="fifths grid"></div>
-        <div class="fifths grid"></div>
-        <div class="fifths grid"></div>
-        <div class="fifths grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
     </div>
 
     <div class="row">
-        <div class="sixths grid"></div>
-        <div class="sixths grid"></div>
-        <div class="sixths grid"></div>
-        <div class="sixths grid"></div>
-        <div class="sixths grid"></div>
-        <div class="sixths grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
     </div>
 
     <div class="row">
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
-        <div class="sevenths grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
     </div>
 
     <div class="row">
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
-        <div class="eighths grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
     </div>
 
     <div class="row">
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
-        <div class="ninths grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
     </div>
 
     <div class="row">
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
-        <div class="tenths grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
     </div>
 
     <div class="row">
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
-        <div class="elevenths grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
     </div>
 
     <div class="row">
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
-        <div class="twelfths grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
     </div>
 
     <div class="row">
-        <div class="halfs grid">
+        <div class="half grid">
 
         </div>
-        <div class="fourths grid"></div>
-        <div class="fourths grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
     </div>
 
     <div class="row">
         <div class="three-fourths grid">
 
         </div>
-        <div class="fourths grid"></div>
+        <div class="fourth grid"></div>
     </div>
 
     <div class="row">
@@ -137,3 +137,5 @@
         </div>
         <div class="five-eighths grid"></div>
     </div>
+
+</div>

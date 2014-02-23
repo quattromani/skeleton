@@ -1,7 +1,5 @@
 <span id="icons-anchor" class="h2 jumpTo-anchor">Icons</span>
 
-  <h3>Icon Font</h3>
-
   <div class="column-count-3">
     <div class="vertical list">
       <ul>

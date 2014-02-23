@@ -3,10 +3,21 @@ $site-width: 1024px;
 
 // ---------------------------------------------------------------------- //
 
+// Column / Grid Control
+$site-column-count: 12;
+$site-gutter-width: 2%;
+
 // Breakpoints
 $bp-big: 68.75em;
 $bp-medium: 48em;
 $bp-small: 40em;
+
+// Sizing
+$padding: 1em;
+$margin: 1em;
+
+//Border-Radius
+$border-radius: 4px;
 
 // ---------------------------------------------------------------------- //
 
@@ -46,24 +57,17 @@ $text-info: $color-secondary-blue;
 // Always declare site background fallback
 $site-background: $color-white;
 
-// ---------------------------------------------------------------------- //
-
-// Sizing
-$padding: 1em;
-$margin: 1em;
-
-$site-column-count: 12;
-$site-gutter-width: 2%;
-
-$base-font-size: 16;
-$base-line-height: 1.443;
-
-$border-radius: 4px;
+// Buttons
+$color-button-primary: $color-primary-blue;
+$color-button-primary-hover: $color-secondary-blue;
 
 // ---------------------------------------------------------------------- //
 
 // Typography
 // Fonts
+$base-font-size: 16;
+$base-line-height: 1.443;
+
 $base-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $base-font-alt: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
@@ -86,7 +90,3 @@ $small-body-text: ($base-font-size *.75);
 $disclaimer-text: ($base-font-size *.675);
 
 // ---------------------------------------------------------------------- //
-
-// Buttons
-$color-button-primary: $color-primary-blue;
-$color-button-primary-hover: $color-secondary-blue;

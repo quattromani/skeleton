@@ -15,6 +15,12 @@
 		// page class tag
 		$page_class = 'styleguide';
 
+	// Version
+		$version = '0.4.4';
+
+	// Project Date
+		$project_date = '2014-2-23';
+
 	// primary breadcrumb
 		$breadcrumb_A = 'Home';
 
