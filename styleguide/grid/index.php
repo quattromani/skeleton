@@ -117,6 +117,15 @@
     </div>
 
     <div class="row">
+        <div class="golden-long grid">
+
+        </div>
+        <div class="golden-short grid">
+
+        </div>
+    </div>
+
+    <div class="row">
         <div class="half grid">
 
         </div>

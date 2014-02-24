@@ -342,6 +342,20 @@ article, aside, figure, footer, header, hgroup, nav, section {
       .twelfth:nth-child(3n) {
         margin-right: 0; } }
 
+.golden-long {
+  float: left;
+  width: 61.04079%;
+  margin-right: 2%; }
+  .golden-long:last-child {
+    margin-right: 0; }
+
+.golden-short {
+  float: left;
+  width: 36.95921%;
+  margin-right: 2%; }
+  .golden-short:last-child {
+    margin-right: 0; }
+
 .two-fifths {
   float: left;
   width: 38.8%;
@@ -1236,6 +1250,10 @@ ul {
     margin-bottom: 0;
     margin-left: 0; }
 
+li {
+  overflow: auto;
+  /* Allow elements to be placed inside li's */ }
+
 /* Bulleted List Items */
 .bulleted ~ ul {
   margin-bottom: 0; }
@@ -1347,7 +1365,7 @@ a, button, input[type="submit"] {
     display: block;
     width: 100%;
     text-align: center; }
-  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active {
+  .btn:disabled, .btn.js-disabled, .btn.btn-disabled {
     cursor: default;
     background: #999999;
     color: white; }
@@ -1381,7 +1399,7 @@ button {
   color: #4fc1e9; }
   button:hover {
     color: #3bafda; }
-  button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
+  button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.btn-disabled:hover, button.btn.btn-disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #999999;
     color: white; }
@@ -1771,6 +1789,19 @@ canvas {
   left: 0;
   max-width: 100%; }
 
+/* total with of page */
+/* number of columns */
+/* margin between columns */
+/* math magic */
+/* create row  */
+/* create a column */
+/* element span n columns */
+/* remove margin from all last columns */
+/* prepend n blank columns  */
+/* append n blank columns */
+/* ==========================================================================
+    Tables -- Version: 1.9.0.0 - Updated: 2/23/2014
+   ========================================================================== */
 /* total with of page */
 /* number of columns */
 /* margin between columns */

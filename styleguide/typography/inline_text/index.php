@@ -17,6 +17,7 @@
       <li><code>&lt;cite&gt;</code> - <cite>This is a citation</cite></i></li>
       <li><code>&lt;dfn&gt;</code> - The <dfn>dfn element</dfn> indicates a definition.</li>
       <li><code>&lt;mark&gt;</code> - The <mark>mark element</mark> indicates a highlight</li>
+      <li><code>&lt;var&gt;</code> - The <var>var element</var> defines a variable</li>
       <li>
         <code>&lt;address&gt;</code>
         <br><br>

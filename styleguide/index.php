@@ -1,7 +1,7 @@
 <?php include('../includes/config.php'); ?>
 <?php include($appRoot .'includes/header.php'); ?>
 
-<h1><? echo($project_title); ?> Style Guide</h1>
+<h1><? echo ucfirst($project_title); ?> Style Guide</h1>
 
 <hr>
 <p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>
@@ -29,6 +29,8 @@
 <?php if ($forms) { include('forms/index.php'); } ?>
 
 <?php if ($images) { include('images/index.php'); } ?>
+
+<?php if ($audio) { include('tables/index.php'); } ?>
 
 <?php if ($video) { include('video/index.php'); } ?>
 

@@ -233,6 +233,19 @@
 }
 
 // Combinations
+.golden-long {
+  @include col($site-column-count * (1 / 1.618));
+  &:last-child {
+    @include last;
+  }
+}
+.golden-short {
+  @include col($site-column-count * (1 - (1 / 1.618)));
+  &:last-child {
+    @include last;
+  }
+}
+
 .two-fifths {
   @include col(($site-column-count / 5) * 2);
   &:last-child {

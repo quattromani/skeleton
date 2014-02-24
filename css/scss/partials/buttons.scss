@@ -28,7 +28,7 @@ a, button, input[type="submit"] {
     width: 100%;
     text-align: center;
   }
-  &:disabled, &.js-disabled, &.disabled {
+  &:disabled, &.js-disabled, &.btn-disabled {
     cursor: default;
     background: $color-light-grey;
     color: $text-white;

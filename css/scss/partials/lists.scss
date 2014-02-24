@@ -21,6 +21,10 @@ ul {
   }
 }
 
+li {
+  overflow: auto; /* Allow elements to be placed inside li's */
+}
+
 /* Bulleted List Items */
 
 .bulleted {

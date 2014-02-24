@@ -4,9 +4,11 @@
 
   <a href="" class="btn mobile-full">btn</a>
 
-  <button class="btn mobile-full" type="button">button</button>
+  <button class="btn mobile-full" type="button">Button</button>
 
-  <button class="btn disabled mobile-full" type="button">disabled</button>
+  <button class="btn btn-disabled mobile-full" type="button">Disabled</button>
+
+  <button value="reset" name="reset" type="reset"><span>Clear</span></button>
 
 <pre class="prettyprint">
 &lt;a href="" class="btn mobile-full"&gt;btn&lt;/a&gt;

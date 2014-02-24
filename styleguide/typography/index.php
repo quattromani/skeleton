@@ -9,6 +9,8 @@
 
 <?php if ($fonts) { include('typography/body_text/index.php');  echo '<hr>'; } ?>
 
+<?php if ($fonts) { include('typography/inline_text/index.php');  echo '<hr>'; } ?>
+
 <?php if ($fonts) { include('typography/icons/index.php');  echo '<hr>'; } ?>
 
 <?php if ($fonts) { include('typography/text_alignment/index.php'); } ?>

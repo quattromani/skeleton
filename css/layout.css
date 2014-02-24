@@ -332,6 +332,24 @@
   }
 }
 
+.golden-long {
+  float: left;
+  width: 61.04079%;
+  margin-right: 2%;
+}
+.golden-long:last-child {
+  margin-right: 0;
+}
+
+.golden-short {
+  float: left;
+  width: 36.95921%;
+  margin-right: 2%;
+}
+.golden-short:last-child {
+  margin-right: 0;
+}
+
 .two-fifths {
   float: left;
   width: 38.8%;
