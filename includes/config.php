@@ -1,6 +1,6 @@
 <?
 
-$appDIR = "/skeleton/";
-$appRoot = $_SERVER['DOCUMENT_ROOT'] . $appDIR;
+  $appDIR = '/' . basename(dirname($_SERVER['PHP_SELF'])) .'/';
+  $appRoot = $_SERVER['DOCUMENT_ROOT'] . $appDIR;
 
 ?>

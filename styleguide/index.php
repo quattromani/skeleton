@@ -1,7 +1,7 @@
-<?php include('../includes/config.php'); ?>
+<?php include($appRoot .'./includes/config.php'); ?>
 <?php include($appRoot .'includes/header.php'); ?>
 
-<h1><? echo ucfirst($project_title); ?> Style Guide</h1>
+<h1><? echo ucfirst(basename(dirname(dirname($_SERVER['PHP_SELF'])))); ?> Style Guide</h1>
 
 <hr>
 <p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>
