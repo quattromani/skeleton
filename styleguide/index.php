@@ -1,7 +1,7 @@
-<?php include($appRoot .'./includes/config.php'); ?>
-<?php include($appRoot .'includes/header.php'); ?>
+<?php include('../config.php'); ?>
+<?php include($project_title . 'includes/header.php'); ?>
 
-<h1><? echo ucfirst(basename(dirname(dirname($_SERVER['PHP_SELF'])))); ?> Style Guide</h1>
+<h1><? echo $project; ?> Style Guide</h1>
 
 <hr>
 <p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>
@@ -40,4 +40,4 @@
 
   <h2>FIN.</h2>
 
-  <?php include($appRoot .'includes/footer.php'); ?>
+  <?php include($project_title .'includes/footer.php'); ?>

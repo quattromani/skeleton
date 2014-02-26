@@ -74,4 +74,6 @@ $content = true;
 
 $jumpTo = true;
 
+$footer = true;
+
 ?>

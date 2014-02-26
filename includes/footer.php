@@ -2,15 +2,15 @@
 
 	// Load End Content closing tags
 	if ($content == true) {
-		include($appRoot . 'includes/endContent.php');
+		include($project_title . 'includes/endContent.php');
 	}
 
 	// Load Footer
 	if ($footer) {
-		include($appRoot . 'includes/foot.php');
+		include($project_title . 'includes/foot.php');
 	}
 
 	// Close the page
-		include($appRoot . 'includes/close.php');
+	include_once($project_title .'includes/close.php');
 
 ?>

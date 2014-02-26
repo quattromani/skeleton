@@ -86,7 +86,7 @@
         <div class="tenth grid"></div>
         <div class="tenth grid"></div>
     </div>
-
+<!--
     <div class="row">
         <div class="eleventh grid"></div>
         <div class="eleventh grid"></div>
@@ -114,7 +114,7 @@
         <div class="twelfth grid"></div>
         <div class="twelfth grid"></div>
         <div class="twelfth grid"></div>
-    </div>
+    </div> -->
 
     <div class="row">
         <div class="golden-long grid">

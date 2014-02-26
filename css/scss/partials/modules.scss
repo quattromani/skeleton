@@ -9,8 +9,8 @@
   @extend %clearfix !optional;
   padding: ($padding);
   @include margin($margin / 2, 0, $margin);
-  background: $color-white;
-  border: 1px solid $color-light-grey;
+  background: $site-background;
+  // border: 1px solid $color-light-grey;
   @include border-radius;
   overflow: auto;
 }

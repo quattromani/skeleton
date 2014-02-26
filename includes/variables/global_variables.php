@@ -4,6 +4,8 @@
 
 	// header.php variables
 		// Page Title
+		$project = '/' . basename(dirname($_SERVER['PHP_SELF'])) .'/';
+
 		$project_title = basename(dirname($_SERVER['PHP_SELF']));
 
 		// Page Description

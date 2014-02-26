@@ -15,10 +15,10 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="<? print $appDIR; ?>css/main.min.css">
-    <link rel="stylesheet" href="<? print $appDIR; ?>css/fonts/font-awesome.min.css">
-    <link rel="stylesheet" id="printCSS" media="print" href="<? print $appDIR; ?>css/print.css">
-    <script src="<? print $appDIR; ?>js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="<? print $project_root; ?>css/main.min.css">
+    <link rel="stylesheet" href="<? print $project_root; ?>css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="<? print $project_root; ?>css/print.css">
+    <script src="<? print $project_root; ?>js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
 
