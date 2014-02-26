@@ -4,7 +4,7 @@
 
     <p>* Indicates a required field</p>
 
-    <form action="" novalidate>
+    <form action="/" method="post" novalidate>
         <fieldset>
             <h3>Contact Information</h3>
             <!-- First Name / Last Name -->
@@ -62,8 +62,8 @@
 
                         <div class="formitem state">
                             <label for="state" class="required">State:</label>
-                            <select name="state" autocomplete="state" tabindex="7" required>
-                                <option value="null">Please Select a State</option>
+                            <select name="state" id="state" tabindex="7" required>
+                                <option value="">Please Select a State</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -136,21 +136,18 @@
             <!-- Phone / Alt Phone -->
             <div class="row clearfix">
                 <div class="column half">
-
-                    <legend class="required">Phone Number:</legend>
                     <div class="formitem phone-number">
-                        <label for="phone-number" class="visually-hidden">Phone Number</label>
+                        <label for="phone-number" class="required">Phone Number</label>
                         <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
                         <span title="Gonna need dem digits"></span>
                     </div>
 
                 </div>
-                <div class="column half">
 
-                    <legend>Alternate Phone Number:(Optional)</legend>
+                <div class="column half">
                     <div class="formitem phone-number">
-                        <label for="phone-number" class="visually-hidden">Phone Number</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" autocomplete="tel" tabindex="10">
+                        <label for="phone-number" class="">Alternate Phone Number</label>
+                        <input type="tel" id="phone-number-alt" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" autocomplete="tel" tabindex="10">
                     </div>
 
                 </div>
@@ -183,8 +180,8 @@
                 <div class="column half">
 
                     <div class="formitem textarea">
-                        <legend>Leave a really complimentary comment about us here:</legend>
-                        <textarea tabindex="12"></textarea>
+                        <label for="textarea">Leave a really complimentary comment about us here:</label>
+                        <textarea id="textarea" tabindex="12"></textarea>
                     </div>
 
                 </div>
@@ -231,37 +228,37 @@
                         <ul class="column-count-3">
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="15" required>
+                                    <input id="terms1" type="checkbox" name="terms" tabindex="15" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="16" required>
+                                    <input id="terms2" type="checkbox" name="terms" tabindex="16" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="17" required>
+                                    <input id="terms3" type="checkbox" name="terms" tabindex="17" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="18" required>
+                                    <input id="terms4" type="checkbox" name="terms" tabindex="18" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="19" required>
+                                    <input id="terms5" type="checkbox" name="terms" tabindex="19" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms" type="checkbox" name="terms" tabindex="20" required>
+                                    <input id="terms6" type="checkbox" name="terms" tabindex="20" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
@@ -281,8 +278,8 @@
                     <h3>Datalist Field</h3>
                     <div class="formitem">
                         <label for="browsers">Internet Browsers</label>
-                        <input type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="21" >
-                        <datalist id="browsers">
+                        <input id="browsers" type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="21" >
+                        <datalist id="webbrowsers">
                             <option value="Internet Explorer">
                             <option value="Firefox">
                             <option value="Chrome">

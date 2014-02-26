@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('dev', ['newer:concat', 'uglify', 'newer:sass', 'cssmin', 'watch']);
+    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
     grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
 
 };
