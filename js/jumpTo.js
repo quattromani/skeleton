@@ -1,4 +1,3 @@
-$(function(){
   $('<option value="">Jump to…</option>').appendTo('#anchor');
   $('.jumpTo-anchor').each(function(index){
     $('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
@@ -8,4 +7,3 @@ $(function(){
     var divPosition = $('#'+$(this).val()).offset();
     $('html, body').animate({scrollTop: divPosition.top}, "slow");
   });
-});

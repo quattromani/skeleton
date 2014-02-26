@@ -31,7 +31,7 @@
         <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
       </li>
       <li>
-        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate=""><? $now = new DateTime(null, new DateTimeZone('America/Denver'));
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22"><? $now = new DateTime(null, new DateTimeZone('America/Denver'));
     echo $now->format('Y-m-d H:i:s'); ?></time>
       </li>
       <li>
