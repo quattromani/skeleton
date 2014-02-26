@@ -241,35 +241,35 @@
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
   background: #e7eef4;
 }
 
 .border-radius {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
 
 .bordered-solid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
   border: 1px solid #666666;
 }
 
 .bordered-dotted {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
   border: 1px dotted #666666;
 }
 
@@ -279,7 +279,7 @@
 }
 
 .bordered-left-dark {
-  border-left: 1px solid #333333;
+  border-left: 1px solid #4e443c;
 }
 
 .bordered-right, .bordered-right-dark {
@@ -288,7 +288,7 @@
 }
 
 .bordered-right-dark {
-  border-right: 1px solid #333333;
+  border-right: 1px solid #4e443c;
 }
 
 .column-count-2 {

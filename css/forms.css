@@ -25,9 +25,9 @@ input, textarea {
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #999999;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -48,9 +48,9 @@ select {
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #999999;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -123,7 +123,7 @@ input:required ~ span:after {
   position: absolute;
   left: 0;
   bottom: .25em;
-  color: #ed5565;
+  color: #c51b30;
   font-weight: 700;
   filter: alpha(opacity=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

@@ -28,15 +28,15 @@
 }
 
 .color-primary-red {
-  background: #ed5565;
+  background: #c51b30;
 }
 
 .color-primary-green {
-  background: #a0d468;
+  background: #bfd2b4;
 }
 
 .color-primary-blue {
-  background: #4fc1e9;
+  background: #96adac;
 }
 
 .color-primary-lav {
@@ -44,7 +44,7 @@
 }
 
 .color-secondary-red {
-  background: #da4453;
+  background: #871321;
 }
 
 .color-secondary-green {
@@ -52,7 +52,7 @@
 }
 
 .color-secondary-blue {
-  background: #3bafda;
+  background: #4d6d85;
 }
 
 .color-secondary-lav {
@@ -61,23 +61,23 @@
 
 /* Typography Colors */
 .text {
-  color: #333333;
+  color: #4e443c;
 }
 
 .color-text {
-  background: #333333;
+  background: #4e443c;
 }
 
 .color-link {
-  background: #4fc1e9;
+  background: #d83e28;
 }
 
 .color-error {
-  background: #ed5565;
+  background: #c51b30;
 }
 
 .color-info {
-  background: #3bafda;
+  background: #4d6d85;
 }
 
 .color-success {
@@ -85,7 +85,7 @@
 }
 
 .link {
-  color: #4fc1e9;
+  color: #d83e28;
 }
 
 .text-grey {
@@ -97,7 +97,7 @@
 }
 
 .text-link {
-  color: #4fc1e9;
+  color: #d83e28;
 }
 
 .text-white {
@@ -105,7 +105,7 @@
 }
 
 .text-info {
-  color: #3bafda;
+  color: #4d6d85;
 }
 
 .text-muted, .muted {
@@ -113,16 +113,16 @@
 }
 
 .text-warning, .text-error {
-  color: #ed5565;
+  color: #c51b30;
 }
 
 .error, .is-error {
-  background: #f9c8cd;
-  color: #ed5565;
+  background: #ec7482;
+  color: #c51b30;
 }
 
 .text-info {
-  color: #3bafda;
+  color: #4d6d85;
 }
 
 .text-success {
@@ -133,7 +133,7 @@
     Primary Color Palette
    ========================== */
 .outline {
-  border: 1px solid #333333;
+  border: 1px solid #4e443c;
 }
 
 /* ==========================

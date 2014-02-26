@@ -42,12 +42,17 @@ ul ul {
   margin-left: 0;
 }
 
+li {
+  overflow: auto;
+  /* Allow elements to be placed inside li's */
+}
+
 /* Bulleted List Items */
 .bulleted ~ ul {
   margin-bottom: 0;
 }
 .bulleted li {
-  list-style-type: square;
+  list-style: outside disc;
   margin-left: 1em;
   border-bottom: none;
 }
@@ -70,9 +75,9 @@ ul ul {
 .horizontal.slashes li:after {
   content: '/';
   padding-top: 0;
-  padding-right: 0.5em;
+  padding-right: 1em;
   padding-bottom: 0;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 .horizontal.slashes li.js-last:after {
   content: '';
@@ -97,13 +102,12 @@ ul ul {
 /* Vertical List Items */
 .vertical > ul > li,
 .vertical > ol > li {
-  padding-top: 0.5em;
+  padding-top: 1em;
   padding-right: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   padding-left: 0;
 }
 .vertical.lined > ul > li, .vertical.lined > ol > li {
-  overflow: auto;
   border-bottom: 1px dotted #cccccc;
 }
 .vertical.lined > ul > li.js-last, .vertical.lined > ol > li.js-last {
@@ -115,7 +119,8 @@ ul ul {
 
 /* Ordered List */
 ol li {
-  list-style-type: decimal;
+  list-style: decimal;
+  list-style-position: outside;
 }
 
 /* Definition List */
