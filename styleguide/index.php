@@ -1,8 +1,6 @@
 <?php include('../config.php'); ?>
 <?php include($project_title . 'includes/header.php'); ?>
 
-<? print $project_root; ?>
-
 <h1><? echo $project; ?> Style Guide</h1>
 
 <hr>
