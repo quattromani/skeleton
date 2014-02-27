@@ -1294,7 +1294,7 @@ a, button, input[type="submit"] {
     display: block;
     width: 100%;
     text-align: center; }
-  .btn:disabled, .btn.js-disabled, .btn.btn-disabled {
+  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active {
     cursor: default;
     background: #999999;
     color: white; }
@@ -1328,7 +1328,7 @@ button {
   color: #4fc1e9; }
   button:hover {
     color: #3bafda; }
-  button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.btn-disabled:hover, button.btn.btn-disabled:active, button.disabled:hover, button.disabled:active {
+  button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #999999;
     color: white; }
