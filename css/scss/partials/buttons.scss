@@ -23,6 +23,10 @@ a, button, input[type="submit"] {
     background: $color-button-primary-hover;
     color: $text-white;
   }
+  &:active, &.active, &:focus {
+    background: darken($color-button-primary-hover, 20%);
+    background-image: 0;
+  }
   &.block {
     display: block;
     width: 100%;

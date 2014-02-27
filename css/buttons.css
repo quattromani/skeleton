@@ -30,6 +30,10 @@ a, button, input[type="submit"] {
   background: #3bafda;
   color: white;
 }
+.btn:active, .btn.active, .btn:focus {
+  background: #1c7393;
+  background-image: 0;
+}
 .btn.block {
   display: block;
   width: 100%;
