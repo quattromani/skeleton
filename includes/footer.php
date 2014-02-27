@@ -4,13 +4,12 @@
     <!-- End Content Wrapper -->
 
     <div class="loadtime">loadtime</div>
-<!-- <div class="pv" id="toggleMedia">print view</div> -->
     <div class="viewport">viewport</div>
 
     <!-- Footer Component -->
     <footer class="container" role="contentinfo">
 
-      <span class="small-body-text">Copyright &copy; <?php echo date("Y"); ?></span>
+      <span class="small-body-text">Some sweet footer text - Copyright &copy; <span id="year">year</span></span>
 
     </footer>
     <!-- ./Footer Component -->
