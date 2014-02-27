@@ -19,29 +19,6 @@ body, button, input, select, textarea {
 }
 
 @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BebasNeue-webfont.woff') format('woff'),
-         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OswaldLight';
-    src: url('fonts/Oswald-Light-webfont.eot');
-    src: url('fonts/Oswald-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Oswald-Light-webfont.woff') format('woff'),
-         url('fonts/Oswald-Light-webfont.ttf') format('truetype'),
-         url('fonts/Oswald-Light-webfont.svg#OswaldLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
   font-family: $fontawesome;
   src: url('fonts/icons/fontawesome-webfont.eot');
   src: url('fonts/icons/fontawesome-webfont.eot?#iefix') format("embedded-opentype"),
@@ -124,7 +101,7 @@ h1, .h1 {
 
 h2, .h2 {
   @include font-size($h2);
-  font-family: $heading-font;
+  font-family: $heading-font-alt;
   font-weight: 100;
 }
 
@@ -136,7 +113,7 @@ h3, .h3 {
 
 h4, .h4 {
   @include font-size($h4);
-  font-family: $heading-font;
+  font-family: $heading-font-alt;
   font-weight: 100;
 }
 

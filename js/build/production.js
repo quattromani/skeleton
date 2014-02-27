@@ -5,22 +5,6 @@
 // For DEMO site only - DO NOT EVER INGEST THESE !!
 window.onload = getPageLoadTime;
 
-// Toggle between print view and web view
-$('#toggleMedia').click(function() {
-    var currCSS = document.getElementById('printCSS');
-    if ($.trim($(this).text()) === 'print view') {
-        $(this).text('web view');
-    } else {
-        $(this).text('print view');
-    }
-    if (currCSS.media == 'all') {
-        currCSS.media = 'print';
-    } else {
-        currCSS.media = 'all';
-    }
-    return false;
-});
-
 // Add a 'fold' line to prototype in mobile only
 var overlay = jQuery('<div class="fold"> </div>');
 $(window).resize(function() {
@@ -89,17 +73,6 @@ $('.fonts').each(function(){
  });
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
-$(function(){
-  $('<option value="">Jump to…</option>').appendTo('#anchor');
-  $('.jumpTo-anchor').each(function(index){
-    $('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
-  });
-
-  $('#anchor').change(function(){
-    var divPosition = $('#'+$(this).val()).offset();
-    $('html, body').animate({scrollTop: divPosition.top}, "slow");
-  });
-});
 /* ==========================================================================
     Main -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */

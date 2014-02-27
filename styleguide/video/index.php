@@ -2,9 +2,8 @@
 <a class="btn vs right" href="#">View Source</a>
 <div class="box-column clear">
 
-  <video width="100%" height="auto" poster="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" preload="" controls="">
-    <source id="mp4" type="video/mp4" src="http://media.w3.org/2010/05/bunny/trailer.mp4">
-    <source id="ogv" type="video/ogg" src="http://media.w3.org/2010/05/bunny/trailer.ogv">
+  <video width="100%" height="auto" poster="assets/videos/big-buck-bunny_poster.jpg" preload="" controls="">
+    <source id="webm" type="video/webm" src="assets/videos/big_buck_bunny.webm">
     <p>Your user agent does not support the HTML5 Video element.</p>
   </video>
 

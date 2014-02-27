@@ -1,7 +1,7 @@
 <?php include('../config.php'); ?>
 <?php include($project_title . 'includes/header.php'); ?>
 
-<h1><? echo $project; ?> Style Guide</h1>
+<h1><? echo ucfirst($project); ?> Style Guide</h1>
 
 <hr>
 <p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>

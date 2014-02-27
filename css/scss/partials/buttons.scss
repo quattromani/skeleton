@@ -15,7 +15,7 @@ a, button, input[type="submit"] {
   @include border-radius();
   border: none;
   background: $color-button-primary;
-  font-family: $base-font;
+  font-family: $base-font-alt;
   font-weight: normal;
   color: $text-white;
   text-align: center;

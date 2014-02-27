@@ -1,6 +1,5 @@
-<?php include($appRoot .'includes/config.php'); ?>
-<?php include($appRoot .'includes/header.php'); ?>
+<? include($project .'includes/header.php'); ?>
 
-    <p>hello world</p>
+          <p>Hello World</p>
 
-<?php include($appRoot .'includes/footer.php'); ?>
+<? include('includes/footer.php'); ?>
