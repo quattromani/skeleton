@@ -1691,7 +1691,8 @@ hr {
   -moz-appearance: none;
   z-index: 999999;
   -webkit-transform: translateZ(0);
-  color: white;
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  color: #0f0;
   text-indent: 0.01px;
   text-overflow: ''; }
 

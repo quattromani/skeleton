@@ -10,7 +10,7 @@
   bottom: 0;
   right: 0;
   width: auto;
-  @include padding(($padding / 2), $padding);
+ @include padding(.5em, 1em);
   border: none;
   @include border-radius($border-radius 0 0 0);
   background: rgb(0,0,0);
@@ -19,7 +19,8 @@
      -moz-appearance: none;
   z-index: 999999;
   -webkit-transform: translateZ(0);
-  color: $text-white;
+  font-family: $pre;
+  color: #0f0;
   text-indent: 0.01px;
   text-overflow: '';
 }
