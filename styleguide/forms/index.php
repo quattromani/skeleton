@@ -236,36 +236,6 @@
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
-                            <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms2" type="checkbox" name="terms" tabindex="17" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms3" type="checkbox" name="terms" tabindex="18" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms4" type="checkbox" name="terms" tabindex="19" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms5" type="checkbox" name="terms" tabindex="20" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms6" type="checkbox" name="terms" tabindex="21" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
-                                </div>
-                            </li>
                         </ul>
                     </div>
 
@@ -282,7 +252,7 @@
                     <h3>Datalist Field</h3>
                     <div class="formitem">
                         <label for="browsers">Internet Browsers</label>
-                        <input id="browsers" type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="22" >
+                        <input id="browsers" type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="17" >
                         <datalist id="webbrowsers">
                             <option value="Internet Explorer">
                             <option value="Firefox">

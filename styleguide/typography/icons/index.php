@@ -1,16 +1,18 @@
 <span id="icons-anchor" class="h2 jumpTo-anchor">Icons</span>
 
+  <p class="lede">Font Awesome is employed for scalable vector icons that can be customized — size, color, drop shadow, and anything that can be done with CSS. These icons will always match the font color.</p>
+
   <div class="column-count-3">
     <div class="vertical list">
       <ul>
 
         <li>
           <i class="fa fa-fw">&#xf002;</i>
-          fa-search
+          <code>.fa.fa-search</code>
           <span class="muted">(&amp;#xf002;)</span>
         </li>
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf004;</i>
           fa-heart
           <span class="muted">(&amp;#xf004;)</span>
@@ -20,15 +22,15 @@
           <i class="fa fa-fw">&#xf005;;</i>
           fa-star
           <span class="muted">(&amp;#xf005;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf007;</i>
-          fa-user
+          <code>.fa.fa-user</code>
           <span class="muted">(&amp;#xf007;)</span>
         </li>
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf008;</i>
           fa-film
           <span class="muted">(&amp;#xf008;)</span>
@@ -50,56 +52,56 @@
           <i class="fa fa-fw">&#xf00b;</i>
           fa-th-list
           <span class="muted">(&amp;#xf00b;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf00c;</i>
-          fa-check
+          <code>.fa.fa-check</code>
           <span class="muted">(&amp;#xf00c;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf00d;</i>
-          fa-times
+          <code>.fa.fa-times</code>
           <span class="muted">(&amp;#xf00d;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf00e;</i>
-          fa-search-plus
+          <code>.fa.fa-search-plus</code>
           <span class="muted">(&amp;#xf00e;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf010;</i>
-          fa-search-minus
+          <code>.fa.fa-search-minus</code>
           <span class="muted">(&amp;#xf010;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf011;</i>
-          fa-power-off
+          <code>.fa.fa-power-off</code>
           <span class="muted">(&amp;#xf011;)</span>
         </li>
-
+<!--
         <li>
           <i class="fa fa-fw">&#xf012;</i>
           fa-signal
           <span class="muted">(&amp;#xf012;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf013;</i>
-          fa-cog
+          <code>.fa.fa-cog</code>
           <span class="muted">(&amp;#xf013;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf015;</i>
-          fa-home
+          <code>.fa.fa-home</code>
           <span class="muted">(&amp;#xf015;)</span>
         </li>
-
+<!--
         <li>
           <i class="fa fa-fw">&#xf018;</i>
           fa-road
@@ -110,26 +112,26 @@
           <i class="fa fa-fw">&#xf019;</i>
           fa-download
           <span class="muted">(&amp;#xf019;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf01c;</i>
-          fa-inbox
+          <code>.fa.fa-inbox</code>
           <span class="muted">(&amp;#xf01c;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf01e;</i>
-          fa-repeat
+          <code>.fa.a-repeat</code>
           <span class="muted">(&amp;#xf01e;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf021;</i>
-          fa-refresh
+          <code>.fa.fa-refresh</code>
           <span class="muted">(&amp;#xf021;)</span>
         </li>
-
+<!--
         <li>
           <i class="fa fa-fw">&#xf022;</i>
           fa-list-alt
@@ -140,9 +142,9 @@
           <i class="fa fa-fw">&#xf023;</i>
           fa-lock
           <span class="muted">(&amp;#xf023;)</span>
-        </li>
+        </li> -->
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf024;</i>
           fa-flag
           <span class="muted">(&amp;#xf024;)</span>
@@ -188,21 +190,21 @@
           <i class="fa fa-fw">&#xf02d;</i>
           fa-book
           <span class="muted">(&amp;#xf02d;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf02e;</i>
-          fa-bookmark
+          <code>.fa.fa-bookmark</code>
           <span class="muted">(&amp;#xf02e;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf02f;</i>
-          fa-print
+          <code>.fa.fa-print</code>
           <span class="muted">(&amp;#xf02f;)</span>
         </li>
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf030;</i>
           fa-camera
           <span class="muted">(&amp;#xf030;)</span>
@@ -278,21 +280,21 @@
           <i class="fa fa-fw">&#xf03d;</i>
           fa-video-camera
           <span class="muted">(&amp;#xf03d;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf040;</i>
-          fa-pencil
+          <code>.fa.fa-pencil</code>
           <span class="muted">(&amp;#xf040;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf041;</i>
-          fa-map-marker
+          <code>.fa.fa-map-marker</code>
           <span class="muted">(&amp;#xf041;)</span>
         </li>
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf042;</i>
           fa-adjust
           <span class="muted">(&amp;#xf042;)</span>
@@ -368,21 +370,21 @@
           <i class="fa fa-fw">&#xf052;</i>
           fa-eject
           <span class="muted">(&amp;#xf052;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf053;</i>
-          fa-chevron-left
+          <code>.fa.fa-chevron-left</code>
           <span class="muted">(&amp;#xf053;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf054;</i>
-          fa-chevron-right
+          <code>.fa.fa-chevron-right</code>
           <span class="muted">(&amp;#xf054;)</span>
         </li>
 
-        <li>
+  <!--       <li>
           <i class="fa fa-fw">&#xf055;</i>
           fa-plus-circle
           <span class="muted">(&amp;#xf055;)</span>
@@ -470,27 +472,27 @@
           <i class="fa fa-fw">&#xf066;</i>
           fa-compress
           <span class="muted">(&amp;#xf066;)</span>
-        </li>
+        </li> -->
 
         <li>
           <i class="fa fa-fw">&#xf067;</i>
-          fa-plus
+          <code>.fa.fa-plus</code>
           <span class="muted">(&amp;#xf067;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf068;</i>
-          fa-minus
+          <code>.fa.fa-minus</code>
           <span class="muted">(&amp;#xf068;)</span>
         </li>
 
         <li>
           <i class="fa fa-fw">&#xf069;</i>
-          fa-asterisk
+          <code>.fa.fa-asterisk</code>
           <span class="muted">(&amp;#xf069;)</span>
         </li>
 
-        <li>
+<!--         <li>
           <i class="fa fa-fw">&#xf06a;</i>
           fa-exclamation-circle
           <span class="muted">(&amp;#xf06a;)</span>
@@ -1508,7 +1510,7 @@
           <i class="fa fa-fw">&#xf193;</i>
           fa-wheelchair
           <span class="muted">(&amp;#xf193;)</span>
-        </li>
+        </li> -->
 
       </ul>
     </div>
