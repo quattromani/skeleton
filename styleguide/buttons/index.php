@@ -2,7 +2,7 @@
 <a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
-  <a href="" class="btn btn-primary">Link</a>
+  <a href="" class="btn btn-primary mobile-full">Link</a>
 
   <button class="btn btn-primary mobile-full" type="button">Button</button>
 
@@ -16,13 +16,13 @@
 
   <h3>Button Sizes</h3>
 
-  <a href="" class="btn btn-primary btn-xl">Extra Large</a>
+  <a href="" class="btn btn-primary btn-xl mobile-full">Extra Large</a>
 
-  <a href="" class="btn btn-primary btn-lg">Large</a>
+  <a href="" class="btn btn-primary btn-lg mobile-full">Large</a>
 
-  <a href="" class="btn btn-primary">Default</a>
+  <a href="" class="btn btn-primary mobile-full">Default</a>
 
-  <a href="" class="btn btn-primary btn-sm">Small</a>
+  <a href="" class="btn btn-primary btn-sm mobile-full">Small</a>
 
 <pre class="prettyprint">
 &lt;a href="" class="btn mobile-full"&gt;btn&lt;/a&gt;

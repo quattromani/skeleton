@@ -46,10 +46,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   list-style: none outside none;
   vertical-align: baseline; }
 
-html, body {
-  height: 100%;
-  overflow: auto; }
-
 body {
   background-color: white; }
 
@@ -1631,17 +1627,13 @@ video {
   figure video {
     margin-bottom: 1em; }
 
-audio, canvas {
+audio {
   display: inline-block;
   *zoom: 1;
-  *display: inline; }
-  audio:not([controls]), canvas:not([controls]) {
-    display: none; }
-
-canvas {
-  top: 0;
-  left: 0;
+  *display: inline;
   max-width: 100%; }
+  audio:not([controls]) {
+    display: none; }
 
 /* ==========================================================================
     Tables -- Version: 1.9.0.0 - Updated: 2/23/2014

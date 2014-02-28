@@ -73,6 +73,15 @@ $('.fonts').each(function(){
  });
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
+$('<option value="">Jump to…</option>').appendTo('#anchor');
+$('.jumpTo-anchor').each(function(index){
+  $('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
+});
+
+$('#anchor').change(function(){
+  var divPosition = $('#'+$(this).val()).offset();
+  $('html, body').animate({scrollTop: divPosition.top}, "slow");
+});
 /* ==========================================================================
     Main -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */
