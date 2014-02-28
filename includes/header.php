@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <? include($project .'includes/variables/global_variables.php'); include('includes/variables/page_variables.php'); ?>
-    <title><?php if ($page_title !='') { echo($page_title); } else { echo 'Home Page'; } ?> | <?php echo ucfirst($project_title); ?></title>
+    <title><?php if ($page_title !='') { echo($page_title); } else { echo 'Home Page'; } ?> | <?php echo ucfirst($project); ?></title>
     <meta name="description" content="<?=$description?>">
     <meta name="keywords" content="<?=$keywords?>">
     <meta name="viewport" content="width=device-width">
