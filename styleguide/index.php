@@ -28,9 +28,9 @@
 
 <?php if ($forms) { include('forms/index.php'); } ?>
 
-<?php if ($images) { include('images/index.php'); } ?>
-
 <?php if ($audio) { include('tables/index.php'); } ?>
+
+<?php if ($images) { include('images/index.php'); } ?>
 
 <?php if ($video) { include('video/index.php'); } ?>
 
