@@ -1,5 +1,5 @@
 <span id="bestPractices-anchor" class="h2 jumpTo-anchor">Best Practices</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
   <!-- Best Practices Component -->
@@ -26,6 +26,16 @@
       </li>
       <li>
         <div class="bulleted">
+          <h5>Syntax</h5>
+          <ul>
+            <li>Use soft-tabs with two spaces</li>
+            <li>Nested elements should be indented once (2 spaces)</li>
+            <li>Don't include a trailing slash in self-closing elements</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="bulleted">
           <h5>Attributes</h5>
           <ul>
             <li>
@@ -43,12 +53,14 @@
       <li>
         <h5>Attribute order</h5>
         <p>HTML attributes should come in this particular order for easier reading of code.</p>
-        <ul>
-          <li>id</li>
-          <li>class</li>
-          <li>data-*</li>
-          <li>for | type | href | src</li>
-        </ul>
+        <div class="vertical bulleted">
+          <ul>
+            <li><code>id</code></li>
+            <li><code>class</code></li>
+            <li><code>data-*</code></li>
+            <li><code>for</code> | <code>type</code> | <code>href</code> | <code>src</code></li>
+          </ul>
+        </div>
       </li>
       <li>
 
@@ -74,7 +86,7 @@
       </li>
     </ul>
   </div>
-
+  <hr>
   <h2>CSS</h2>
   <hr>
 
@@ -222,6 +234,7 @@ color: #0f0;
 </ul>
 </div>
 
+<hr>
 <h2>Sass</h2>
 <hr>
 
@@ -374,7 +387,6 @@ If you find yourself writing a number other than 0 or 100% more than once, make 
 </div>
 
 <hr>
-
 <h2>JS</h2>
 <hr>
 
@@ -435,6 +447,9 @@ If you find yourself writing a number other than 0 or 100% more than once, make 
       </ul>
 
       <p>The alt attribute is meant to help users using assitive techonology not miss any content, so make sure your text is helpful to anyone not seeing the image.</p>
+    </li>
+    <li>
+      <code><.visually-hidden></code> - The Visually-Hidden class allows for 508 Compliance on an element needed for visually assisted users.
     </li>
   </ul>
 </div>

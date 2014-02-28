@@ -1,5 +1,5 @@
 <span id="table-anchor" class="h2 jumpTo-anchor">Table</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
   <!-- Table Component -->

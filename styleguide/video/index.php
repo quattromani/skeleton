@@ -1,5 +1,5 @@
 <span id="video-anchor" class="h2 jumpTo-anchor">Video</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
   <video width="100%" height="auto" poster="assets/videos/big-buck-bunny_poster.jpg" preload="" controls="">

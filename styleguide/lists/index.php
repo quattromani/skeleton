@@ -1,5 +1,5 @@
 <span id="lists-anchor" class="h2 jumpTo-anchor">Lists</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
     <h3>A Basic Unordered List</h3>
 

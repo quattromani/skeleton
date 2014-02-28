@@ -32,11 +32,6 @@ ul ul {
   margin-left: 0;
 }
 
-li {
-  overflow: auto;
-  /* Allow elements to be placed inside li's */
-}
-
 /* Bulleted List Items */
 .bulleted ~ ul {
   margin-bottom: 0;
@@ -98,6 +93,7 @@ li {
   padding-left: 0;
 }
 .vertical.lined > ul > li, .vertical.lined > ol > li {
+  overflow: auto;
   border-bottom: 1px dotted #cccccc;
 }
 .vertical.lined > ul > li.js-last, .vertical.lined > ol > li.js-last {

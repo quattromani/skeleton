@@ -1,5 +1,5 @@
 <span id="typography-anchor" class="h2 jumpTo-anchor">Typography</span>
-<a class="btn vs right disabled" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
 

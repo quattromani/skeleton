@@ -1186,10 +1186,6 @@ ul {
     margin-bottom: 0;
     margin-left: 0; }
 
-li {
-  overflow: auto;
-  /* Allow elements to be placed inside li's */ }
-
 /* Bulleted List Items */
 .bulleted ~ ul {
   margin-bottom: 0; }
@@ -1240,6 +1236,7 @@ li {
   padding-bottom: 0.5em;
   padding-left: 0; }
 .vertical.lined > ul > li, .vertical.lined > ol > li {
+  overflow: auto;
   border-bottom: 1px dotted #cccccc; }
   .vertical.lined > ul > li.js-last, .vertical.lined > ol > li.js-last {
     border-bottom: none; }
@@ -1259,12 +1256,9 @@ dd {
   margin-left: 1em; }
 
 /* ==========================================================================
-    Buttons -- Version: 0.4.1 - Updated: 1/21/2014
+    Buttons -- Version: 0.4.2 - Updated: 2/27/2014
    ========================================================================== */
-a, button, input[type="submit"] {
-  cursor: pointer; }
-
-.btn {
+.btn, button {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -1279,80 +1273,61 @@ a, button, input[type="submit"] {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   border: none;
-  background: #4fc1e9;
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-  font-weight: normal;
-  color: white;
-  text-align: center; }
-  .btn:hover {
-    background: #3bafda;
-    color: white; }
-  .btn:active, .btn.active, .btn:focus {
-    background: #1c7393;
-    background-image: 0; }
-  .btn.block {
-    display: block;
-    width: 100%;
-    text-align: center; }
-  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active {
-    cursor: default;
-    background: #999999;
-    color: white; }
-  .btn.js-active {
-    background: #a0d468; }
-  @media (max-width: 40em) {
-    .btn.mobile-full {
-      display: block;
-      width: 100%; }
-      .btn.mobile-full a {
-        display: block;
-        text-align: center; }
-      .btn.mobile-full + .btn.mobile-full {
-        margin-top: 1em; } }
-
-button {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  padding: 0.5em 1em;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-  border: none;
   background: none;
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: normal;
-  color: #4fc1e9; }
-  button:hover {
-    color: #3bafda; }
-  button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.disabled:hover, button.disabled:active {
+  color: #4fc1e9;
+  text-align: center;
+  cursor: pointer; }
+  .btn:hover, button:hover {
+    background: #e5e5e5; }
+  .btn:focus, button:focus {
+    background: #bfbfbf;
+    background-image: 0; }
+  .btn.btn-primary, button.btn-primary {
+    background: #4fc1e9;
+    color: white; }
+    .btn.btn-primary:hover, button.btn-primary:hover {
+      background: #3bafda; }
+    .btn.btn-primary:active, button.btn-primary:active {
+      background: #1790bb;
+      background-image: 0;
+      color: white; }
+  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, button:disabled, button.js-disabled, button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #999999;
     color: white; }
-
-input[type="submit"]:disabled {
-  background-color: #bcbcbc;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#838383));
-  background-image: -webkit-linear-gradient(top, #bcbcbc, #838383);
-  background-image: -moz-linear-gradient(top, #bcbcbc, #838383);
-  background-image: -ms-linear-gradient(top, #bcbcbc, #838383);
-  background-image: -o-linear-gradient(top, #bcbcbc, #838383);
-  background-image: linear-gradient(top, #bcbcbc, #838383);
-  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bcbcbc', EndColorStr='#838383')"; */
-  color: white; }
-  input[type="submit"]:disabled:hover, input[type="submit"]:disabled:active {
-    background-color: #bcbcbc;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbcbc), to(#838383));
-    background-image: -webkit-linear-gradient(top, #bcbcbc, #838383);
-    background-image: -moz-linear-gradient(top, #bcbcbc, #838383);
-    background-image: -ms-linear-gradient(top, #bcbcbc, #838383);
-    background-image: -o-linear-gradient(top, #bcbcbc, #838383);
-    background-image: linear-gradient(top, #bcbcbc, #838383);
-    /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#bcbcbc', EndColorStr='#838383')"; */
+  .btn.js-active, button.js-active {
+    background: #a0d468;
     color: white; }
+  .btn.block, button.block {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .btn.btn-xl, button.btn-xl {
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-left: 2em; }
+  .btn.btn-lg, button.btn-lg {
+    padding-top: 0.75em;
+    padding-right: 1.5em;
+    padding-bottom: 0.75em;
+    padding-left: 1.5em; }
+  .btn.btn-sm, button.btn-sm {
+    padding-top: 0.33333em;
+    padding-right: 0.66667em;
+    padding-bottom: 0.33333em;
+    padding-left: 0.66667em; }
+  @media (max-width: 40em) {
+    .btn.mobile-full, button.mobile-full {
+      display: block;
+      width: 100%; }
+      .btn.mobile-full a, button.mobile-full a {
+        display: block;
+        text-align: center; }
+      .btn.mobile-full + .btn.mobile-full, button.mobile-full + button.mobile-full {
+        margin-top: 1em; } }
 
 /* Firefox */
 @-moz-document url-prefix() {
@@ -1806,6 +1781,8 @@ hr {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: #3bafda; }
+  .styleguide .grid:nth-of-type(even) {
+    background: #aae1f4; }
 .styleguide .prettyprint {
   display: none; }
 

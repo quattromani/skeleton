@@ -16,10 +16,10 @@
 		$page_class = 'styleguide';
 
 	// Version
-		$version = '0.4.4';
+		$version = '0.4.5';
 
 	// Project Date
-		$project_date = '2014-2-23';
+		$project_date = '2014-2-27';
 
 	// primary breadcrumb
 		$breadcrumb_A = 'Home';

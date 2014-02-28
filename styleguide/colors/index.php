@@ -1,5 +1,5 @@
 <span id="colors-anchor" class="h2 jumpTo-anchor">Colors</span>
-<a class="btn vs right disabled" href="#">View Source</a>
+<a class="btn btn-primary vs right disabled" href="#">View Source</a>
 <div class="box-column clear">
   <h3>Slab Colors</h3>
   <div class="row clearfix">

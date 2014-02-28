@@ -2,35 +2,38 @@
 @import "../globals/allGlobals";
 
 /* ==========================================================================
-    Buttons -- Version: 0.4.1 - Updated: 1/21/2014
+    Buttons -- Version: 0.4.2 - Updated: 2/27/2014
    ========================================================================== */
 
-a, button, input[type="submit"] {
-  cursor: pointer;
-}
-
-.btn {
+.btn, button {
   @include inline-block();
   @include padding(.5em, $padding);
   @include border-radius();
   border: none;
-  background: $color-button-primary;
+  background: none;
   font-family: $base-font-alt;
   font-weight: normal;
-  color: $text-white;
+  color: $link;
   text-align: center;
+  cursor: pointer;
   &:hover {
-    background: $color-button-primary-hover;
-    color: $text-white;
+    background: darken($color-off-white, 5%);
   }
-  &:active, &.active, &:focus {
-    background: darken($color-button-primary-hover, 20%);
+  &:focus {
+    background: darken($color-off-white, 20%);
     background-image: 0;
   }
-  &.block {
-    display: block;
-    width: 100%;
-    text-align: center;
+  &.btn-primary {
+    background: $color-button-primary;
+    color: $color-white;
+    &:hover {
+      background: $color-button-primary-hover;
+    }
+    &:active {
+      background: darken($color-button-primary, 20%);
+      background-image: 0;
+      color: $color-white;
+   }
   }
   &:disabled, &.js-disabled, &.disabled {
     cursor: default;
@@ -42,6 +45,21 @@ a, button, input[type="submit"] {
   }
   &.js-active {
     background: $color-primary-green;
+    color: $color-white;
+  }
+  &.block {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  &.btn-xl {
+    @include padding(1em, ($padding * 2));
+  }
+  &.btn-lg {
+    @include padding(.75em, ($padding * 1.5));
+  }
+  &.btn-sm {
+    @include padding(($padding / 3), ($padding / 1.5));
   }
   @media (max-width: $bp-small) {
 
@@ -57,37 +75,6 @@ a, button, input[type="submit"] {
       }
     }
 
-  }
-}
-
-button {
-  @include inline-block();
-  padding: .5em $padding;
-  @include border-radius();
-  border: none;
-  background: none;
-  font-family: $base-font-alt;
-  font-weight: normal;
-  color: $link;
-  &:hover {
-    color: $color-secondary-blue;
-  }
-  &.disabled {
-    cursor: default;
-    background: $color-light-grey;
-    color: $text-white;
-    &:hover, &:active {
-      @extend .disabled;
-    }
-  }
-}
-
-input[type="submit"]:disabled {
-  @include background-gradient(#bcbcbc, #838383);
-  color: $text-white;
-  &:hover, &:active {
-    @include background-gradient(#bcbcbc, #838383);
-    color: $text-white;
   }
 }
 

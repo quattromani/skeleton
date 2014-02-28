@@ -1,5 +1,5 @@
 <span id="forms-anchor" class="h2 jumpTo-anchor">Forms</span>
-<a class="btn vs right disabled" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
     <p>* Indicates a required field</p>
@@ -167,7 +167,11 @@
                 </div>
                 <div class="column half">
 
-
+                    <div class="formitem email">
+                        <label for="email" class="required">Email Address:</label>
+                        <input class="form-control" type="url" placeholder="URL" tabindex="12">
+                        <span title="Please enter your Email Address"></span>
+                    </div>
 
                 </div>
             </div>
@@ -181,7 +185,7 @@
 
                     <div class="formitem textarea">
                         <label for="textarea">Leave a really complimentary comment about us here:</label>
-                        <textarea id="textarea" tabindex="12"></textarea>
+                        <textarea id="textarea" tabindex="13"></textarea>
                     </div>
 
                 </div>
@@ -199,11 +203,11 @@
                 <div class="column half">
 
                     <div class="formitem radio">
-                        <input id="checking" type="radio" name="account-type" tabindex="13" checked>
+                        <input id="checking" type="radio" name="account-type" tabindex="14" checked>
                         <label for="checking">Charge this card every month for my account charges.</label>
                     </div>
                     <div class="formitem radio">
-                        <input id="savings" type="radio" name="account-type" tabindex="14">
+                        <input id="savings" type="radio" name="account-type" tabindex="15">
                         <label for="savings">Charge this card only for today’s charges.</label>
                     </div>
 
@@ -228,37 +232,37 @@
                         <ul class="column-count-3">
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms1" type="checkbox" name="terms" tabindex="15" required>
+                                    <input id="terms1" type="checkbox" name="terms" tabindex="16" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms2" type="checkbox" name="terms" tabindex="16" required>
+                                    <input id="terms2" type="checkbox" name="terms" tabindex="17" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms3" type="checkbox" name="terms" tabindex="17" required>
+                                    <input id="terms3" type="checkbox" name="terms" tabindex="18" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms4" type="checkbox" name="terms" tabindex="18" required>
+                                    <input id="terms4" type="checkbox" name="terms" tabindex="19" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms5" type="checkbox" name="terms" tabindex="19" required>
+                                    <input id="terms5" type="checkbox" name="terms" tabindex="20" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
                             <li>
                                 <div class="formitem checkbox">
-                                    <input id="terms6" type="checkbox" name="terms" tabindex="20" required>
+                                    <input id="terms6" type="checkbox" name="terms" tabindex="21" required>
                                     <label for="terms" class="required b">I accept these Terms & Conditions.</label>
                                 </div>
                             </li>
@@ -278,7 +282,7 @@
                     <h3>Datalist Field</h3>
                     <div class="formitem">
                         <label for="browsers">Internet Browsers</label>
-                        <input id="browsers" type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="21" >
+                        <input id="browsers" type="text" list="browsers" name="browser" placeholder="Internet Explorer" tabindex="22" >
                         <datalist id="webbrowsers">
                             <option value="Internet Explorer">
                             <option value="Firefox">
@@ -300,7 +304,7 @@
 
         <fieldset>
             <div class="formitem">
-                <button class="btn" type="submit" name="submit" value="submit">
+                <button class="btn btn-primary" type="submit" name="submit" value="submit">
                     <span>Submit</span>
                 </button>
 

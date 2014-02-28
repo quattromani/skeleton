@@ -1,5 +1,5 @@
 <span id="audio-anchor" class="h2 jumpTo-anchor">Audio</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
   <audio controls="">

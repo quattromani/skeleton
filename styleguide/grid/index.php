@@ -1,5 +1,5 @@
 <span id="grid-anchor" class="h2 jumpTo-anchor">Grid</span>
-<a class="btn vs right" href="#">View Source</a>
+<a class="btn btn-primary vs right" href="#">View Source</a>
 <div class="box-column clear">
 
     <div class="row">
@@ -11,6 +11,13 @@
         <div class="half grid"></div>
     </div>
 
+<pre class="prettyprint">
+&lt;div class="row"&gt;
+    &lt;div class="half"&gt;&lt;/div&gt;
+    &lt;div class="half"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
     <div class="row">
         <div class="third grid"></div>
         <div class="third grid"></div>
@@ -86,7 +93,7 @@
         <div class="tenth grid"></div>
         <div class="tenth grid"></div>
     </div>
-<!--
+
     <div class="row">
         <div class="eleventh grid"></div>
         <div class="eleventh grid"></div>
@@ -114,7 +121,7 @@
         <div class="twelfth grid"></div>
         <div class="twelfth grid"></div>
         <div class="twelfth grid"></div>
-    </div> -->
+    </div>
 
     <div class="row">
         <div class="golden-long grid">
