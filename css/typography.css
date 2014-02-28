@@ -15,7 +15,7 @@ html {
 body, button, input, select, textarea {
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: normal;
+  line-height: 1.443;
 }
 
 @font-face {
@@ -237,8 +237,10 @@ code {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: #fcdfe2;
+  border: 1px solid #cccccc;
+  background: #e6e6e6;
   color: #ed5565;
+  font-size: 90%;
   white-space: nowrap;
 }
 

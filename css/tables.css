@@ -1,3 +1,22 @@
 /* ==========================================================================
-    Tables -- Version: 1.9.0.0 - Updated: 2/23/2014
+    Tables -- Version: 0.4.1- Updated: 2/23/2014
    ========================================================================== */
+table {
+  width: 100%;
+  max-width: 100%;
+}
+
+th {
+  background: #cccccc;
+}
+
+tr:nth-of-type(even) {
+  background: #f2f2f2;
+}
+
+th, td {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}

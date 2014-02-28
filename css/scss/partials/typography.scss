@@ -15,7 +15,7 @@ html {
 
 body, button, input, select, textarea {
   @include font-size($base-font-size);
-  line-height: normal;
+  line-height: $base-line-height;
 }
 
 @font-face {
@@ -205,8 +205,10 @@ pre {
 code {
   @include padding($padding / 10, $padding / 3);
   @include border-radius;
-  background: lighten($text-error, 30%);
+  border: 1px solid $color-light-light-grey;
+  background: lighten($color-light-grey, 30%);
   color: $color-primary-red;
+  font-size: 90%;
   white-space: nowrap;
 }
 

@@ -2,11 +2,22 @@
 @import "../globals/allGlobals";
 
 /* ==========================================================================
-    Tables -- Version: 1.9.0.0 - Updated: 2/23/2014
+    Tables -- Version: 0.4.1- Updated: 2/23/2014
    ========================================================================== */
 
-.tables {
+table {
+  width: 100%;
+  max-width: 100%;
+}
 
+th {
+  background: $color-light-light-grey;
+}
 
+tr:nth-of-type(even) {
+  background: $color-off-white;
+}
 
+th, td {
+  @include padding(1em);
 }
