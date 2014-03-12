@@ -41,4 +41,6 @@
 
 		$footer = true;
 
+			$googleAnalytics = true;
+
 ?>

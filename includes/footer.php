@@ -31,5 +31,10 @@
 	include('includes/scripts.php');
     ?>
 
+    <? if ($googleAnalytics) {
+        include('includes/googleAnalytics.php');
+    }
+    ?>
+
 </body>
 </html>
