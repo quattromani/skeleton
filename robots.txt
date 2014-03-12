@@ -1,0 +1,6 @@
+# robots.txt for http://www.skeleton.com/
+
+User-agent: *
+Disallow: /Gruntfile.js
+Disallow: /skeleton.sublime-project
+Disallow: /skeleton.sublime-workspace
