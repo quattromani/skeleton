@@ -8,12 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <? include($project .'includes/variables/global_variables.php'); include('includes/variables/page_variables.php'); ?>
-    <title><?php if ($page_title !='') { echo($page_title); } else { echo 'Home Page'; } ?> | <?php echo ucfirst($project); ?></title>
+    <title><?php if ($page_title !='') { echo($page_title); } else { echo 'Home Page'; } ?></title>
     <meta name="description" content="<?=$description?>">
     <meta name="keywords" content="<?=$keywords?>">
     <meta name="viewport" content="width=device-width">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<? print $project_root; ?>images/apple-touch-icon.png" />
 
     <link rel="stylesheet" href="<? print $project_root; ?>css/main.min.css">
     <link rel="stylesheet" href="<? print $project_root; ?>css/fonts/font-awesome.min.css">
