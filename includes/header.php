@@ -11,7 +11,7 @@
     <title><?php if ($page_title !='') { echo($page_title); } else { echo 'Home Page'; } ?></title>
     <meta name="description" content="<?=$description?>">
     <meta name="keywords" content="<?=$keywords?>">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, minimal-ui">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
