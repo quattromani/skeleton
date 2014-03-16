@@ -69,7 +69,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
    ========================================================================== */
 .container {
   display: block;
-  width: 94%;
+  width: 100%;
   max-width: 1024px;
   margin-top: 0;
   margin-right: auto;
