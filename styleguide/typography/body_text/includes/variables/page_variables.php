@@ -4,7 +4,7 @@
 
 	// header.php variables
 		// Page Title
-		$title = 'Typography - Body Text';
+		$page_title = 'Typography - Body Text';
 
 		// Page Description
 		$description = '';

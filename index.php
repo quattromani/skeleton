@@ -1,5 +1,5 @@
-<? include($project .'includes/header.php'); ?>
+<?php
+	$the_content = '<p>Hello World</p>';
+?>
 
-          <p>Hello World</p>
-
-<? include('includes/footer.php'); ?>
+<?php include('includes/single.php'); ?>

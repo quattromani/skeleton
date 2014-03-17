@@ -1,3 +1,6 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
 /* ==========================================================================
     Styleguide -- Version: 0.4.2  - Updated: 2/21/2014
    ========================================================================== */
@@ -15,6 +18,7 @@
     @media (max-width: $bp-medium) {
       margin-bottom: $margin;
     }
+
   }
 
   .grid {

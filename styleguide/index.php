@@ -10,33 +10,33 @@
 <!-- Loop through and include all styleguide sections -->
 <!-- TODO // add true/false variables to project/includes/global_variables.php -->
 
-<?php if ($about) { include('about/index.php'); } ?>
+<? include('about/content.php'); ?>
 
-<?php if ($colors) { include('colors/index.php'); } ?>
+<? include('colors/content.php'); ?>
 
-<?php if ($typography) { include('typography/index.php'); } ?>
+<? include('typography/content.php'); ?>
 
-<?php if ($lists) { include('lists/index.php'); } ?>
+<? include('lists/content.php'); ?>
 
-<?php if ($breadcrumbs) { include('breadcrumbs/index.php'); } ?>
+<? include('breadcrumbs/content.php'); ?>
 
-<?php if ($pagination) { include('pagination/index.php'); } ?>
+<? include('pagination/content.php'); ?>
 
-<?php if ($buttons) { include('buttons/index.php'); } ?>
+<? include('buttons/content.php'); ?>
 
-<?php if ($grid) { include('grid/index.php'); } ?>
+<? include('grid/content.php'); ?>
 
-<?php if ($forms) { include('forms/index.php'); } ?>
+<? include('forms/content.php'); ?>
 
-<?php if ($audio) { include('tables/index.php'); } ?>
+<? include('tables/content.php'); ?>
 
-<?php if ($images) { include('images/index.php'); } ?>
+<? include('images/content.php'); ?>
 
-<?php if ($video) { include('video/index.php'); } ?>
+<? include('video/content.php'); ?>
 
-<?php if ($audio) { include('audio/index.php'); } ?>
+<? include('audio/content.php'); ?>
 
-<?php if ($best_practices) { include('best_practices/index.php'); } ?>
+<? include('best_practices/content.php'); ?>
 
   <h2>FIN.</h2>
 

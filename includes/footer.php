@@ -1,11 +1,7 @@
-
         </div>
     </div>
     <!-- End Content Wrapper -->
 
-    <div class="loadtime">loadtime</div>
-    <div class="viewport">viewport</div>
-    <? if ($jumpTo) { echo '<select id="anchor" class="jumpTo"></select>'; } ?>
     <!-- Footer Component -->
     <footer class="container" role="contentinfo">
 
@@ -26,15 +22,8 @@
     <? if (file_exists('includes/functions.js')) { echo '<script src="includes/functions.js"></script>'; } ?>
     <script src="/js/vendor/respond.min.js"></script>
     <script src="/js/build/production.min.js"></script>
-    <?
-	// Load Footer
-	include('includes/scripts.php');
-    ?>
-
-    <? if ($googleAnalytics) {
-        include('includes/googleAnalytics.php');
-    }
-    ?>
+    <? include('includes/scripts.php'); ?>
+<? if ($googleAnalytics) { include('includes/googleAnalytics.php'); } ?>
 
 </body>
 </html>

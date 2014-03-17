@@ -4,9 +4,10 @@
 
 	// header.php variables
 		// Page Title
-		$page_title = 'Style Guide + Pattern Lab';
+		$page_title = 'Home';
 
 		// Page Description
+
 		$description = '';
 
 		// Page Specific Keywords
@@ -16,10 +17,10 @@
 		$page_class = 'styleguide';
 
 	// Version
-		$version = '0.4.5';
+		$version = '0.4.7';
 
 	// Project Date
-		$project_date = '2014-2-27';
+		$project_date = '2014-3-17';
 
 	// primary breadcrumb
 		$breadcrumb_A = 'Home';
@@ -35,46 +36,6 @@
 		$subHead = '';
 
 // Setup the page
-
-$content = true;
-
-	$about = true;
-
-	$colors = true;
-
-	$typography = true;
-
-		$fonts = true;
-
-	$lists = true;
-
-	$breadcrumbs = true;
-
-	$buttons = true;
-
-	$pagination = true;
-
-	$grid = true;
-
-		$combinations = true;
-
-		$marginless = true;
-
-			$marginless_combinations = true;
-
-	$forms = true;
-
-	$images = true;
-
-	$video = true;
-
-	$audio = true;
-
-	$best_practices = true;
-
-$jumpTo = true;
-
-$footer = true;
 
 $prototype = true;
 

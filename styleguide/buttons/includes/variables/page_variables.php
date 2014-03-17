@@ -4,7 +4,7 @@
 
 	// header.php variables
 		// Page Title
-		$title = 'Buttons';
+		$Page_title = 'Buttons';
 
 		// Page Description
 		$description = '';

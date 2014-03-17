@@ -27,7 +27,6 @@ function getPageLoadTime() {
     // Place the seconds in the innerHTML to show the results
     $('.loadtime').text( + seconds + ' sec');
 }
-
 /* ==========================================================================
     Styleguide -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */
