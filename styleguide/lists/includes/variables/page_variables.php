@@ -30,8 +30,6 @@
 
 // Setup the page
 
-		$content = true;
-
-		$footer = false;
+		$prototype = true;
 
 ?>

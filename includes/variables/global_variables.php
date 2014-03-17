@@ -39,4 +39,6 @@
 
 			$googleAnalytics = true;
 
+			$prototype = true;
+
 ?>
