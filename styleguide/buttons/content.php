@@ -1,5 +1,10 @@
 <span id="buttons-anchor" class="h2 jumpTo-anchor">Buttons</span>
-<a class="btn btn-primary vs right" href="#">View Source</a>
+
+<div class="right">
+  <a class="btn" href="buttons">Isolate</a>
+  <a class="btn btn-primary vs" href="#">View Source</a>
+</div>
+
 <div class="box-column clear">
 
   <a href="" class="btn btn-primary mobile-full">Link</a>

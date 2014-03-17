@@ -1,5 +1,9 @@
 <span id="bestPractices-anchor" class="h2 jumpTo-anchor">Best Practices</span>
-<a class="btn btn-primary vs right" href="#">View Source</a>
+
+<div class="right">
+  <a class="btn" href="best_practices">Isolate</a>
+  <a class="btn btn-primary vs" href="#">View Source</a>
+</div>
 <div class="box-column clear">
 
   <!-- Best Practices Component -->

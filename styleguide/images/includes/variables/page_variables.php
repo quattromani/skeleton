@@ -12,6 +12,9 @@
 		// Page Specific Keywords
 		$keywords = '';
 
+		// page class tag
+		$page_class = 'styleguide';
+
 		// Body ID tag
 		$body_ID = '';
 

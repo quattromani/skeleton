@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <? include_once($_SERVER [ 'DOCUMENT_ROOT' ] . '/includes/variables/global_variables.php'); ?>
-    <? include_once('../includes/variables/page_variables.php'); ?>
+    <? include_once('includes/variables/page_variables.php'); ?>
     <title><? echo $page_title; ?></title>
     <meta name="description" content="<?=$description?>">
     <meta name="keywords" content="<?=$keywords?>">

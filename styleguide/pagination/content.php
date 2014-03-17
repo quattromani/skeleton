@@ -1,5 +1,10 @@
 <span id="pagination-anchor" class="h2 jumpTo-anchor">Pagination</span>
-<a class="btn btn-primary vs right" href="#">View Source</a>
+
+<div class="right">
+  <a class="btn" href="pagination">Isolate</a>
+  <a class="btn btn-primary vs" href="#">View Source</a>
+</div>
+
 <div class="box-column clear">
 
   <!-- Pagination Component -->

@@ -38,44 +38,10 @@
 
 $content = true;
 
-	$about = true;
-
-	$colors = true;
-
-	$typography = true;
-
-		$fonts = true;
-
-	$lists = true;
-
-	$breadcrumbs = true;
-
-	$buttons = true;
-
-	$pagination = true;
-
-	$grid = true;
-
-		$combinations = true;
-
-		$marginless = true;
-
-			$marginless_combinations = true;
-
-	$forms = true;
-
-	$images = true;
-
-	$video = true;
-
-	$audio = true;
-
-	$best_practices = true;
-
-$jumpTo = true;
-
 $footer = true;
 
 $prototype = true;
+
+	$jumpTo = true;
 
 ?>

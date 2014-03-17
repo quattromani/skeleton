@@ -1,5 +1,10 @@
 <span id="forms-anchor" class="h2 jumpTo-anchor">Forms</span>
-<a class="btn btn-primary vs right" href="#">View Source</a>
+
+<div class="right">
+  <a class="btn" href="forms">Isolate</a>
+  <a class="btn btn-primary vs" href="#">View Source</a>
+</div>
+
 <div class="box-column clear">
 
     <p>* Indicates a required field</p>

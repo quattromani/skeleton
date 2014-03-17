@@ -1,5 +1,10 @@
 <span id="breadcrumbs-anchor" class="h2 jumpTo-anchor">Breadcrumbs</span>
-<a class="btn btn-primary vs right" href="#">View Source</a>
+
+<div class="right">
+  <a class="btn" href="breadcrumbs">Isolate</a>
+  <a class="btn btn-primary vs" href="#">View Source</a>
+</div>
+
 <div class="box-column clear">
 
   <div class="horizontal slashes">

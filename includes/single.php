@@ -4,7 +4,6 @@
 
         <? include('content.php'); ?>
 
-<? if ($prototype) { include('includes/prototype.php'); }
-    ?>
+<? include($_SERVER [ 'DOCUMENT_ROOT' ] . '/includes/prototype.php'); ?>
 
 <? include_once($_SERVER [ 'DOCUMENT_ROOT' ] . '/includes/footer.php'); ?>
