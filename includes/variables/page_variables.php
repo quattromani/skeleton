@@ -4,7 +4,7 @@
 
 	// header.php variables
 		// Page Title
-		$page_title = 'Home';
+		$title = 'Home';
 
 		// Page Description
 

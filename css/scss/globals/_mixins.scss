@@ -4,10 +4,13 @@
 $width: 100%;   // total with of page
 $site-column-count: 12 !default;    // number of columns
 $site-gutter-width: 2% !default;  // margin between columns
+$marginless: 0;
 
 // math magic
 $col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
 $col-total-width: $col-width + $site-gutter-width;
+
+$marginless-col-width: $width / $site-column-count;
 
 // create row
 @mixin row() {
@@ -23,6 +26,12 @@ $col-total-width: $col-width + $site-gutter-width;
   @include span($n);
 }
 
+// create a marginless column
+@mixin marginless_col($n: 1) {
+  float: left;
+  @include marginless_span($n);
+}
+
 // element span n columns
 @mixin span($n: 1) {
   width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
@@ -31,6 +40,11 @@ $col-total-width: $col-width + $site-gutter-width;
   } @else {
     margin-right: $site-gutter-width;
   }
+}
+
+@mixin marginless_span($n: 1) {
+  width: ($n * $marginless-col-width);
+  margin-right: 0;
 }
 
 // remove margin from all last columns

@@ -4,7 +4,7 @@
 
 	// header.php variables
 		// Page Title
-		$page_title = 'Style Guide + Pattern Lab';
+		$title = 'Style Guide + Pattern Lab';
 
 		// Page Description
 		$description = '';
