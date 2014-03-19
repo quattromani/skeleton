@@ -2,7 +2,7 @@
 
 // header.php variables
 	// Page Title
-	$title = 'Typography - Inline Text';
+	$title = 'Color Swatches';
 
 	// Page Description
 	$description = '';
@@ -11,14 +11,12 @@
 	$keywords = '';
 
 	// page class tag
-	$page_class = 'styleguide';
+	$page_class = 'sandbox';
 
 	// Body ID tag
 	$body_ID = '';
 
 // Setup the page
-
-	$footer = true;
 
 	$prototype = true;
 

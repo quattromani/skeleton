@@ -15,18 +15,18 @@ function hexc(colorval) {
 
 // Get color value of swatch and print to div
 var color = '';
-$('.colors').each(function() {
-    var classList = $(this).attr('class').split(' ');
+$('.swatch').each(function() {
+    var classList = $(this).children('.swatch-color').attr('class').split(' ');
     for(i=0; i <= classList.length-1; i++){
        if(classList[i].match(/color-/g)){
-           $(this).prepend('<p>$' + classList[i] + '</p>');
+           $(this).children('.swatch-info').prepend('<p>$' + classList[i] + '</p>');
            break;
        }
     }
-    var x = $(this).css('backgroundColor');
+    var x = $(this).children('.swatch-color').css('backgroundColor');
     hexc(x);
-    $(this).append('<p>' + color + '</p>');
-    $(this).append('<p>' + x + '</p>');
+    $(this).children('.swatch-info').append('<p>' + color + '</p>');
+    $(this).children('.swatch-info').append('<p>' + x + '</p>');
 });
 
 // View source buttons

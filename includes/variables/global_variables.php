@@ -35,8 +35,6 @@
 
 		$content = true;
 
-		$footer = true;
-
 			$googleAnalytics = true;
 
 			$prototype = true;
