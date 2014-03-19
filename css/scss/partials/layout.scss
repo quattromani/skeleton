@@ -7,10 +7,9 @@
 
 .container {
   display: block;
-  width: 100%;
   max-width: $site-width;
   @include margin(0,auto);
-  @include padding($padding,0);
+  @include padding($padding);
   overflow: visible;
 }
 

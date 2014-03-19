@@ -1,3 +1,40 @@
+<?
+
+// header.php variables
+  // Page Title
+  $title = 'Breadcrumbs';
+
+  // Page Description
+  $description = '';
+
+  // Page Specific Keywords
+  $keywords = '';
+
+  // page class tag
+  $page_class = 'styleguide';
+
+  // Body ID tag
+  $body_ID = '';
+
+  // primary breadcrumb
+  $breadcrumb_A = 'Home';
+
+  // secondary breadcrumb
+  $breadcrumb_B = 'Secondary';
+
+  // secondary breadcrumb
+  $breadcrumb_C = 'Tertiary';
+
+// Setup the page
+
+  $footer = true;
+
+  $prototype = true;
+
+    $jumpTo = false;
+
+?>
+
 <span id="breadcrumbs-anchor" class="h2 jumpTo-anchor">Breadcrumbs</span>
 
 <div class="right">
@@ -9,7 +46,7 @@
 
   <div class="horizontal slashes">
     <ul>
-  <?php
+  <?
     if ($breadcrumb_A !='') {
       echo "<li><a href=''>$breadcrumb_A</a></li>";
     }

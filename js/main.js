@@ -3,8 +3,8 @@
     ========================================================================== */
 
 	// Add classes to first and last of each list
-	$('li:first-child').addClass('js-first');
-	$('li:last-child').addClass('js-last');
+	// $('li:first-child').addClass('js-first');
+	// $('li:last-child').addClass('js-last');
 
   function getYear(){
     var d = new Date();

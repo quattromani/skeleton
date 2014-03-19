@@ -2,7 +2,7 @@
 
 // header.php variables
 	// Page Title
-	$title = 'Color Swatches';
+	$title = '';
 
 	// Page Description
 	$description = '';
