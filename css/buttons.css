@@ -83,7 +83,7 @@
     display: block;
     text-align: center;
   }
-  .btn.mobile-full + .btn.mobile-full, button.mobile-full + button.mobile-full {
+  .btn.mobile-full + .btn.mobile-full, button.mobile-full + .btn.mobile-full, .btn.mobile-full + button.mobile-full, button.mobile-full + button.mobile-full {
     margin-top: 1em;
   }
 }
@@ -107,7 +107,6 @@
     border: 0 none;
   }
 }
-
 /* ie (.ie) */
 /* make buttons play nice in IE */
 .ie button {
