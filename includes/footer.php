@@ -1,6 +1,6 @@
         </div>
     </div>
-    <!-- End Content Wrapper -->
+    <!-- ./End Content Wrapper -->
 
     <!-- Footer Component -->
     <footer class="container" role="contentinfo">
