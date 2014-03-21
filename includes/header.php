@@ -14,13 +14,13 @@
     <meta name="viewport" content="width=device-width, minimal-ui">
     <meta name="format-detection" content="telephone=no">
 
-<? if (file_exists('images/apple-touch-icon.png')) { echo '<link href="images/apple-touch-icon.png" rel="apple-touch-icon">'. PHP_EOL; }
+<? if (file_exists('images/touch-icon-iphone.png')) { echo '<link rel="apple-touch-icon" href="images/touch-icon-iphone.png">'. PHP_EOL; }
 
-   if (file_exists('images/apple-touch-icon-76x76.png')) { echo '<link href="images/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">'. PHP_EOL; }
+   if (file_exists('images/touch-icon-ipad.png')) { echo '<link rel="apple-touch-icon" sizes="76x76" href="images/touch-icon-ipad.png">'. PHP_EOL; }
 
-   if (file_exists('images/apple-touch-icon-120x120.png')) { echo '<link href="images/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">'. PHP_EOL; }
+   if (file_exists('images/touch-icon-iphone-retina.png')) { echo '<link rel="apple-touch-icon" sizes="120x120" href="images/touch-icon-iphone-retina.png">'. PHP_EOL; }
 
-   if (file_exists('images/apple-touch-icon-152x152.png')) { echo '<link href="images/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">'. PHP_EOL; } ?>
+   if (file_exists('images/touch-icon-ipad-retina.png')) { echo '<link rel="apple-touch-icon" sizes="152x152" href="images/touch-icon-ipad-retina.png">'. PHP_EOL; } ?>
 
     <link rel="stylesheet" href="/css/main.min.css">
     <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
