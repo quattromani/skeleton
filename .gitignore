@@ -7,3 +7,6 @@
 # Ignore sublime project files
 /*.sublime-project
 /*.sublime-workspace
+
+# Ignore sandbox builds
+/sandbox
