@@ -1,28 +1,28 @@
 <?php
 
 // header.php variables
-	// Page Title
-	$title = 'Images';
+  // Page Title
+  $title = 'Images';
 
-	// Page Description
-	$description = '';
+  // Page Description
+  $description = '';
 
-	// Page Specific Keywords
-	$keywords = '';
+  // Page Specific Keywords
+  $keywords = '';
 
-	// page class tag
-	$page_class = 'styleguide';
+  // page class tag
+  $page_class = 'styleguide';
 
-	// Body ID tag
-	$body_ID = '';
+  // Body ID tag
+  $body_ID = '';
 
 // Setup the page
 
-	$footer = true;
+  $footer = true;
 
-	$prototype = true;
+  $prototype = true;
 
-		$jumpTo = false;
+    $jumpTo = false;
 
 ?>
 

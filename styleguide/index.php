@@ -27,6 +27,34 @@
 
 // Setup the page
 
+$about = true;
+
+$colors = true;
+
+$typography = true;
+
+$lists = true;
+
+$breadcrumbs = true;
+
+$buttons = true;
+
+$pagination = true;
+
+$grid = true;
+
+$forms = true;
+
+$tables = true;
+
+$images = true;
+
+$video = true;
+
+$audio = true;
+
+$best_practices = true;
+
 $footer = true;
 
 $prototype = true;

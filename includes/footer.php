@@ -5,7 +5,7 @@
     <!-- Footer Component -->
     <footer class="container" role="contentinfo">
 
-      <span class="small-body-text">Some sweet footer text - Copyright &copy; <span id="year">year</span></span>
+      <span class="small-body-text">Some sweet footer text - Copyright &copy; <span id="year" class="getYear">year</span></span>
 
     </footer>
     <!-- ./Footer Component -->

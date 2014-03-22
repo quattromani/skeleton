@@ -1,5 +1,5 @@
 /* ==========================================================================
-    Styleguide -- Version: 0.4.0 - Updated: 2/20/2014
+    Styleguide -- Version: 0.4.1 - Updated: 2/22/2014
     ========================================================================== */
 
 // Create Hex color code from color return
@@ -18,26 +18,34 @@ var color = '';
 $('.swatch').each(function() {
     var classList = $(this).children('.swatch-color').attr('class').split(' ');
     for(i=0; i <= classList.length-1; i++){
-       if(classList[i].match(/color-/g)){
-           $(this).children('.swatch-info').prepend('<p>$' + classList[i] + '</p>');
-           break;
-       }
-    }
-    var x = $(this).children('.swatch-color').css('backgroundColor');
-    hexc(x);
-    $(this).children('.swatch-info').append('<p>' + color + '</p>');
-    $(this).children('.swatch-info').append('<p>' + x + '</p>');
+     if(classList[i].match(/color-/g)){
+         $(this).children('.swatch-info').prepend('<p>$' + classList[i] + '</p>');
+         break;
+     }
+ }
+ var x = $(this).children('.swatch-color').css('backgroundColor');
+ hexc(x);
+ $(this).children('.swatch-info').append('<p>' + color + '</p>');
+ $(this).children('.swatch-info').append('<p>' + x + '</p>');
 });
 
-// View source buttons
-$('.vs').click(function(){
-    $(this).next().find('.prettyprint').toggle();
-    $(this).not('.disabled').toggleClass('js-active');
-    return false;
-});
+(function($) {
+
+    $.fn.vs = function() {
+        // View source buttons
+        $('.vs').click(function(){
+            $(this).parent().next().find('.prettyprint').toggle();
+            $(this).not('.disabled').toggleClass('js-active');
+            return false;
+        });
+    }
+
+}(jQuery));
+
+$('.vs').vs();
 
 // Get font-family property and return
 $('.fonts').each(function(){
     var fonts = $(this).css('font-family');
     $(this).prepend(fonts);
- });
+});

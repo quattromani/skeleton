@@ -7,32 +7,21 @@
 <!-- Loop through and include all styleguide sections -->
 <!-- TODO // add true/false variables to project/includes/global_variables.php -->
 
-<? include('about/content.php'); ?>
-
-<? include('colors/content.php'); ?>
-
-<? include('typography/content.php'); ?>
-
-<? include('lists/content.php'); ?>
-
-<? include('breadcrumbs/content.php'); ?>
-
-<? include('pagination/content.php'); ?>
-
-<? include('buttons/content.php'); ?>
-
-<? include('grid/content.php'); ?>
-
-<? include('forms/content.php'); ?>
-
-<? include('tables/content.php'); ?>
-
-<? include('images/content.php'); ?>
-
-<? include('video/content.php'); ?>
-
-<? include('audio/content.php'); ?>
-
-<? include('best_practices/content.php'); ?>
+<?
+if ($about) { include('about/content.php'); }
+if ($colors) { include('colors/content.php'); }
+if ($typography) { include('typography/content.php'); }
+if ($lists) { include('lists/content.php'); }
+if ($breadcrumbs) { include('breadcrumbs/content.php'); }
+if ($buttons) { include('buttons/content.php'); }
+if ($pagination) { include('pagination/content.php'); }
+if ($grid) { include('grid/content.php'); }
+if ($forms) { include('forms/content.php'); }
+if ($tables) { include('tables/content.php'); }
+if ($images) { include('images/content.php'); }
+if ($video) { include('video/content.php'); }
+if ($audio) { include('audio/content.php'); }
+if ($best_practices) { include('best_practices/content.php'); }
+?>
 
   <h2>FIN.</h2>

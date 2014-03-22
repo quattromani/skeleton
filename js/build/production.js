@@ -28,7 +28,7 @@ function getPageLoadTime() {
     $('.loadtime').text( + seconds + ' sec');
 }
 /* ==========================================================================
-    Styleguide -- Version: 0.4.0 - Updated: 2/20/2014
+    Styleguide -- Version: 0.4.1 - Updated: 2/22/2014
     ========================================================================== */
 
 // Create Hex color code from color return
@@ -58,12 +58,20 @@ $('.swatch').each(function() {
     $(this).children('.swatch-info').append('<p>' + x + '</p>');
 });
 
-// View source buttons
-$('.vs').click(function(){
-    $(this).next().find('.prettyprint').toggle();
-    $(this).not('.disabled').toggleClass('js-active');
-    return false;
-});
+(function($) {
+
+    $.fn.vs = function() {
+        // View source buttons
+        $('.vs').click(function(){
+        $(this).parent().next().find('.prettyprint').toggle();
+        $(this).not('.disabled').toggleClass('js-active');
+        return false;
+        });
+    }
+
+}(jQuery));
+
+$('.vs').vs();
 
 // Get font-family property and return
 $('.fonts').each(function(){
@@ -72,27 +80,43 @@ $('.fonts').each(function(){
  });
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
-$('<option value="">Jump to…</option>').appendTo('#anchor');
-$('.jumpTo-anchor').each(function(index){
-  $('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
-});
+(function($) {
 
-$('#anchor').change(function(){
-  var divPosition = $('#'+$(this).val()).offset();
-  $('html, body').animate({scrollTop: divPosition.top}, "slow");
-});
+	$.fn.jumpTo = function() {
+		$('<option value="">Jump to…</option>').appendTo('#anchor');
+		$('.jumpTo-anchor').each(function(index){
+			$('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
+		});
+
+		$('#anchor').change(function(){
+			var divPosition = $('#'+$(this).val()).offset();
+			$('html, body').animate({scrollTop: divPosition.top}, "slow");
+		});
+	}
+
+}(jQuery));
+
+$('.jumpTo').jumpTo();
 /* ==========================================================================
     Main -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */
 
-	// Add classes to first and last of each list
-	$('li:first-child').addClass('js-first');
-	$('li:last-child').addClass('js-last');
+// Add classes to first and last li's for every instance
+$(function() {
+  // Add classes to first and last of each list
+  $('li:first-child').addClass('js-first');
+  $('li:last-child').addClass('js-last');
+});
 
-  function getYear(){
+// Set year
+(function($) {
+
+  $.fn.getYear = function() {
     var d = new Date();
     var x = document.getElementById("year");
     x.innerHTML=d.getFullYear();
   }
 
-  $(document).ready(getYear);
+}(jQuery));
+
+$('.getYear').getYear();
