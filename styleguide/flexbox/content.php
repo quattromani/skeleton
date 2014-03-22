@@ -6,23 +6,18 @@
   display: -webkit-flex;
   display: flex;
 }
-
 .flex-item {
 	flex: 1;
   text-align: center;
   color: #fff;
 }
-.lorem {
-	font-size: 16px;
-}
-
-  .one { flex: 1; }
-  .two { flex: 2; }
-  .three { flex: 3; }
-  .five { flex: 5; }
-  .eight { flex: 8; }
-  .thirteen { flex: 12; }
-  .twentyone { flex: 21; }
+.one { flex: 1; }
+.two { flex: 2; }
+.three { flex: 3; }
+.five { flex: 5; }
+.eight { flex: 8; }
+.thirteen { flex: 12; }
+.twentyone { flex: 21; }
 
 </style>
 
