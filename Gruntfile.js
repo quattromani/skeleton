@@ -22,23 +22,32 @@ module.exports = function(grunt) {
         }
       },
 
-      sass: {
-        dist: {
-          options: {
-            style: 'expanded'
-          },
-          files: [{
-            expand: true,
-            cwd: 'css/scss/partials',
-            src: ['*.scss'],
-            dest: 'css/',
-            ext: '.css'
-          }], 'main.css': 'main.scss',
-        },
+      compass: {
         dev: {
-          files: [{'css/main.css': 'css/scss/main.scss'}]
+          options: {
+            config: 'config.rb',
+            force: true
+          }
         }
       },
+
+      // sass: {
+      //   dist: {
+      //     options: {
+      //       style: 'expanded'
+      //     },
+      //     files: [{
+      //       expand: true,
+      //       cwd: 'css/scss/partials',
+      //       src: ['*.scss'],
+      //       dest: 'css/',
+      //       ext: '.css'
+      //     }], 'main.css': 'main.scss',
+      //   },
+      //   dev: {
+      //     files: [{'css/main.css': 'css/scss/main.scss'}]
+      //   }
+      // },
 
       cssmin: {
         combine: {
@@ -69,7 +78,7 @@ module.exports = function(grunt) {
         },
         css: {
           files: ['css/scss/partials/*.scss','css/scss/globals/*.scss'],
-          tasks: ['sass', 'cssmin'],
+          tasks: ['compass', 'cssmin'],
           options: {
             spawn: false,
           }
@@ -78,9 +87,9 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
-    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
+    grunt.registerTask('build', ['concat', 'uglify', 'compass', 'cssmin', 'imagemin', 'watch']);
+    grunt.registerTask('dev', ['concat', 'uglify', 'compass', 'cssmin', 'watch']);
     grunt.registerTask('js', ['concat', 'uglify', 'watch']);
-    grunt.registerTask('css', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('css', ['compass', 'cssmin', 'watch']);
 
 };
