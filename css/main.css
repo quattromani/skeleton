@@ -3,7 +3,7 @@
     CSS Code for all Global Elements and Site-Wide Selectors
 
     Author: Max Quattromani
-    Base -- Version: 0.4.1  - Compiled: Sat Mar 22 10:58:52 2014
+    Base -- Version: 0.4.1  - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 /*
 
@@ -68,7 +68,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 /* Layout */
 /* ==========================================================================
-    Layout -- Version: 1.9.0.2 - Compiled: Sat Mar 22 10:58:52 2014
+    Layout -- Version: 1.9.0.2 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .container {
   display: block;
@@ -658,7 +658,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 /* Modules */
 /* ==========================================================================
-    Colors & Gradients -- Version: 0.4.2 - Compiled: Sat Mar 22 10:58:53 2014
+    Colors & Gradients -- Version: 0.4.2 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .color-white {
   background: white;
@@ -834,7 +834,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 /* ==========================================================================
-    Typography -- Version: 1.9.0.0  - Compiled: Sat Mar 22 10:58:53 2014
+    Typography -- Version: 1.9.0.0  - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 html {
   height: 100%;
@@ -1100,7 +1100,7 @@ kbd, samp {
 }
 
 /* ==========================================================================
-    Helpers -- Version: 1.9.0.0 - Compiled: Sat Mar 22 10:58:53 2014
+    Helpers -- Version: 1.9.0.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .clear {
   clear: both;
@@ -1524,7 +1524,7 @@ kbd, samp {
   }
 }
 /* ==========================================================================
-    Lists -- Version: 1.9.0.0 - Compiled: Sat Mar 22 10:58:53 2014
+    Lists -- Version: 1.9.0.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 ol {
   margin-top: 0;
@@ -1644,7 +1644,7 @@ dd {
 }
 
 /* ==========================================================================
-    Buttons -- Version: 0.4.2 - Compiled: Sat Mar 22 10:58:53 2014
+    Buttons -- Version: 0.4.2 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .btn, button {
   display: inline-block;
@@ -1761,7 +1761,7 @@ dd {
 }
 
 /* ==========================================================================
-    Pagination -- Version: 1.9.0.0 - Compiled: Sat Mar 22 10:58:53 2014
+    Pagination -- Version: 1.9.0.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .pagination ol {
   margin-top: 0;
@@ -1795,7 +1795,7 @@ dd {
 }
 
 /* ===========================================================================================
-    Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: Sat Mar 22 10:58:54 2014
+    Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: Sat Mar 22 15:19:44 2014
    =========================================================================================== */
 .visually-hidden {
   border: none;
@@ -1826,7 +1826,7 @@ dd {
 }
 
 /* ==========================================================================
-    Forms -- Version: 0.4.0 - Compiled: Sat Mar 22 10:58:54 2014
+    Forms -- Version: 0.4.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea, label, select {
   font-size: 16px;
@@ -1994,7 +1994,7 @@ input:required:invalid.instruct ~ span:after {
   }
 }
 /* ==========================================================================
-    Images -- Version: 0.4.0 - Compiled: Sat Mar 22 10:58:54 2014
+    Images -- Version: 0.4.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 figure {
   position: relative;
@@ -2073,7 +2073,7 @@ img {
 }
 
 /* ==========================================================================
-    Videos -- Version: 0.401 - Compiled: Sat Mar 22 10:58:54 2014
+    Videos -- Version: 0.401 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 video {
   display: inline-block;
@@ -2104,7 +2104,7 @@ audio:not([controls]) {
 }
 
 /* ==========================================================================
-    Tables -- Version: 0.4.1- Compiled: Sat Mar 22 10:58:54 2014
+    Tables -- Version: 0.4.1- Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 table {
   width: 100%;
@@ -2127,7 +2127,7 @@ th, td {
 }
 
 /* ==========================================================================
-    Modules -- Version: 0.4.0 - Compiled: Sat Mar 22 10:58:55 2014
+    Modules -- Version: 0.4.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .box-column {
   padding: 1em;
@@ -2157,7 +2157,7 @@ hr {
 }
 
 /* ==========================================================================
-    Jump To -- Version: 1.9.0.0 - Compiled: Sat Mar 22 10:58:55 2014
+    Jump To -- Version: 1.9.0.0 - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .jumpTo {
   position: fixed;
@@ -2188,7 +2188,7 @@ hr {
 }
 
 /* ==========================================================================
-    Prototype -- Version: 0.4.4  - Updated: Sat Mar 22 10:58:55 2014
+    Prototype -- Version: 0.4.4  - Updated: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .viewport, .loadtime {
   position: fixed;
@@ -2245,7 +2245,7 @@ hr {
   }
 }
 /* ==========================================================================
-    Styleguide -- Version: 0.4.2  - Compiled: Sat Mar 22 10:58:55 2014
+    Styleguide -- Version: 0.4.2  - Compiled: Sat Mar 22 15:19:44 2014
    ========================================================================== */
 .styleguide .colors, .styleguide .grid {
   padding-top: 1em;
