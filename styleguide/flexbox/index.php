@@ -2,7 +2,7 @@
 
 // header.php variables
 	// Page Title
-	$title = 'Video';
+	$title = 'Flexbox';
 
 	// Page Description
 	$description = '';

@@ -16,6 +16,7 @@ if ($breadcrumbs) { include('breadcrumbs/content.php'); }
 if ($buttons) { include('buttons/content.php'); }
 if ($pagination) { include('pagination/content.php'); }
 if ($grid) { include('grid/content.php'); }
+if ($flexbox) { include('flexbox/content.php'); }
 if ($forms) { include('forms/content.php'); }
 if ($tables) { include('tables/content.php'); }
 if ($images) { include('images/content.php'); }
