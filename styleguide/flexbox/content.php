@@ -1,38 +1,29 @@
 <style>
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .flex-item {
-	overflow: hidden;
-  background: tomato;
-  padding: 5px;
-  width: 33%;
-  color: white;
-  font-size: 3em;
+	flex: 1;
   text-align: center;
+  color: #fff;
 }
 .lorem {
 	font-size: 16px;
 }
-@media all and (max-width: 640px) {
 
-  .one { order: 3; }
-  .two { order: 1; }
-  .three { order: 2; }
+  .one { flex: 1; }
+  .two { flex: 2; }
+  .three { flex: 3; }
+  .five { flex: 5; }
+  .eight { flex: 8; }
+  .thirteen { flex: 12; }
+  .twentyone { flex: 21; }
 
-}
 </style>
 
 <span id="flexbox-anchor" class="h2 jumpTo-anchor">Flexbox</span>
@@ -44,16 +35,13 @@
 
 <div class="box-column clear">
 	<ul class="flex-container">
-	  <li class="flex-item one">1</li>
-	  <li class="flex-item two">2</li>
-	  <li class="flex-item three">3</li>
-	</ul>
-
-	<hr>
-
-	<ul class="flex-container">
-	  <li class="flex-item lorem"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, expedita.</span></li>
-	  <li class="flex-item lorem"><span>Lorem ipsum dolor sit amet.</span></li>
-	  <li class="flex-item lorem"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odit eaque atque!</span></li>
+	  <li class="flex-item one color-primary-red">1</li>
+    <li class="flex-item one color-primary-green">1</li>
+	  <li class="flex-item two color-primary-blue">2</li>
+	  <li class="flex-item three color-secondary-red">3</li>
+    <li class="flex-item five color-secondary-green">5</li>
+    <li class="flex-item eight color-secondary-blue">8</li>
+    <li class="flex-item thirteen color-primary-red">13</li>
+    <li class="flex-item twentyone color-primary-green">21</li>
 	</ul>
 </div>
