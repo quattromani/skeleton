@@ -262,7 +262,7 @@ color: #0f0;
 
 <pre class="prettyprint">sass/
   ├── main.scss
-  ├── modules/
+  ├── globals/
   |   ├── _mixins.scss
   |   ├── _var.scss
   ├── partials/
@@ -270,6 +270,8 @@ color: #0f0;
   |   ├── _list.scss
   |   ├── _nav.scss
   |   ├── _etc...
+  ├── theme/
+  |   ├── _btn-theme.scss
   └── vendor/
     └── _jquery.ui.core.scss
 </pre>
