@@ -5,10 +5,16 @@
 /* Base */
 @import "partials/base";
 
+	@import "theme/base-theme";
+
 /* Layout */
 @import "partials/layout";
 
 /* Modules */
+
+@import "partials/nav";
+
+	@import "theme/nav-theme";
 
 @import "partials/colors";
 
@@ -19,6 +25,8 @@
 @import "partials/lists";
 
 @import "partials/buttons";
+
+	@import "theme/buttons-theme";
 
 @import "partials/pagination";
 
@@ -39,5 +47,3 @@
 @import "partials/_prototype";
 
 @import "partials/_styleguide";
-
-/* Components */

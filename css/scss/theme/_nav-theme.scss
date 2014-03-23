@@ -1,0 +1,11 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Nav Theme -- Version: 0.4.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+nav {
+  background: $color-primary-red;
+  color: $color-white;
+}

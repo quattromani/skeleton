@@ -31,23 +31,23 @@ module.exports = function(grunt) {
         }
       },
 
-      // sass: {
-      //   dist: {
-      //     options: {
-      //       style: 'expanded'
-      //     },
-      //     files: [{
-      //       expand: true,
-      //       cwd: 'css/scss/partials',
-      //       src: ['*.scss'],
-      //       dest: 'css/',
-      //       ext: '.css'
-      //     }], 'main.css': 'main.scss',
-      //   },
-      //   dev: {
-      //     files: [{'css/main.css': 'css/scss/main.scss'}]
-      //   }
-      // },
+      sass: {
+        dist: {
+          options: {
+            style: 'expanded'
+          },
+          files: [{
+            expand: true,
+            cwd: 'css/scss/partials',
+            src: ['*.scss'],
+            dest: 'css/',
+            ext: '.css'
+          }], 'main.css': 'main.scss',
+        },
+        dev: {
+          files: [{'css/main.css': 'css/scss/main.scss'}]
+        }
+      },
 
       cssmin: {
         combine: {
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
           }
         },
         css: {
-          files: ['css/scss/partials/*.scss','css/scss/globals/*.scss'],
+          files: ['css/scss/partials/*.scss','css/scss/theme/*.scss','css/scss/globals/*.scss'],
           tasks: ['compass', 'cssmin'],
           options: {
             spawn: false,
