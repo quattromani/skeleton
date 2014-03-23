@@ -11,10 +11,10 @@
 	$keywords = '';
 
 	// page class tag
-	$page_class = '';
+	$page_class = 'home';
 
 	// Body ID tag
-	$body_ID = '';
+	$body_ID = 'home';
 
 // Setup the page
 

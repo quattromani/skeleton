@@ -13,6 +13,9 @@ nav {
   }
   li {
   	@include padding($padding);
+  	&.active {
+      background: darken($color-primary-red, 5%);
+    }
   	&:hover {
   		background: $color-secondary-red;
   	}
