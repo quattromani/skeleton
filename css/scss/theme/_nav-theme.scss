@@ -8,4 +8,13 @@
 nav {
   background: $color-primary-red;
   color: $color-white;
+  .container {
+  	@include padding;
+  }
+  li {
+  	@include padding($padding);
+  	&:hover {
+  		background: $color-secondary-red;
+  	}
+  }
 }

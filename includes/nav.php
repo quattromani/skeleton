@@ -1,4 +1,4 @@
-<nav>
+<nav role="navigation">
 	<div class="container">
 		<ul>
     	<li>Home</li>
