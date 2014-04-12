@@ -10,9 +10,14 @@
     <? include_once($_SERVER [ 'DOCUMENT_ROOT' ] . '/includes/variables/global_variables.php'); ?>
     <title><? echo $title; ?></title>
     <meta name="description" content="<?=$description?>">
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
     <meta name="keywords" content="<?=$keywords?>">
-    <meta name="viewport" content="width=device-width, minimal-ui">
+
     <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, minimal-ui">
 
 <? if (file_exists('images/touch-icon-iphone.png')) { echo '<link rel="apple-touch-icon" href="images/touch-icon-iphone.png">'. PHP_EOL; }
 
