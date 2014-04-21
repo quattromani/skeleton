@@ -22,15 +22,6 @@ module.exports = function(grunt) {
         }
       },
 
-      compass: {
-        dev: {
-          options: {
-            config: 'config.rb',
-            force: true
-          }
-        }
-      },
-
       sass: {
         dist: {
           options: {
@@ -77,8 +68,8 @@ module.exports = function(grunt) {
           }
         },
         css: {
-          files: ['css/scss/partials/*.scss','css/scss/theme/*.scss','css/scss/globals/*.scss'],
-          tasks: ['compass', 'cssmin'],
+          files: ['css/scss/partials/*.scss','css/scss/modules/*.scss'],
+          tasks: ['sass', 'cssmin'],
           options: {
             spawn: false,
           }
@@ -87,9 +78,10 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('build', ['concat', 'uglify', 'compass', 'cssmin', 'imagemin', 'watch']);
-    grunt.registerTask('dev', ['concat', 'uglify', 'compass', 'cssmin', 'watch']);
+    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
+    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
     grunt.registerTask('js', ['concat', 'uglify', 'watch']);
-    grunt.registerTask('css', ['compass', 'cssmin', 'watch']);
+    grunt.registerTask('css', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('default', ['watch']);
 
 };
